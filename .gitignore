@@ -1,0 +1,4 @@
+node_modules
+data
+npm-debug.log
+.env
