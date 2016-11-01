@@ -15,7 +15,7 @@ I've used this data to build a [starter project list](http://andrewhfarmer.com/s
 Usage
 ---
 
-```
+```javascript
 const toolList = require('tool-list');
 
 // all tags
@@ -35,7 +35,7 @@ Example Project
 
 Returned starter projects are in this format:
 
-```
+```json
 {
   "githubUrl": "https://github.com/ahfarmer/minimal-react-starter",
   "githubPath": "ahfarmer/minimal-react-starter",
