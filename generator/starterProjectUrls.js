@@ -75,7 +75,6 @@ module.exports = [
   'https://github.com/NYTimes/kyt',
   'https://github.com/olebedev/go-starter-kit',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
-  'https://github.com/paypal/react-engine',
   'https://github.com/PBRT/reactogo',
   'https://github.com/peter-mouland/react-lego',
   'https://github.com/pheuter/essential-react',
