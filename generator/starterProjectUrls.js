@@ -14,6 +14,7 @@ module.exports = [
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
   'https://github.com/alicoding/react-webpack-babel',
+  'https://github.com/amaurymartiny/react-redux-auth0-kit',
   'https://github.com/anorudes/redux-easy-boilerplate',
   'https://github.com/atSistemas/react-base',
   'https://github.com/BackSpaceTech/react-bootstrap-boilerplate',
