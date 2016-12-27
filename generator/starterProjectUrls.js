@@ -64,6 +64,7 @@ module.exports = [
   'https://github.com/lubien/koa-react-redux-universal-boilerplate',
   'https://github.com/lynnaloo/mullet',
   'https://github.com/MadeInHaus/react-flux-gulp-starter',
+  'https://github.com/madnight/react-webpack-babel-karma-boilerplate',
   'https://github.com/mcnamee/react-native-starter-app',
   'https://github.com/mhart/simple-relay-starter',
   'https://github.com/mikechabot/react-boilerplate',
