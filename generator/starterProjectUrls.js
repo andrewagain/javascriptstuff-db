@@ -32,12 +32,13 @@ module.exports = [
   'https://github.com/codefoundries/UniversalRelayBoilerplate',
   'https://github.com/coryhouse/react-flux-starter-kit',
   'https://github.com/coryhouse/react-slingshot',
+  'https://github.com/Cretezy/react-redux-router-firebase',
   'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
-  'https://github.com/dvajs/dva',
   'https://github.com/diegohaz/arc',
   'https://github.com/DominicTobias/universal-react',
   'https://github.com/dozoisch/koa-react-full-example',
+  'https://github.com/dvajs/dva',
   'https://github.com/eanplatter/react-starter',
   'https://github.com/elierotenberg/react-rails-starterkit',
   'https://github.com/ericelliott/react-pure-component-starter',
@@ -118,7 +119,6 @@ module.exports = [
   'https://github.com/wwsun/starter-node-react',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
-  'https://github.com/Cretezy/react-redux-router-firebase',
 
   // package.json elsewhere, or needs tag adjustments
   {
