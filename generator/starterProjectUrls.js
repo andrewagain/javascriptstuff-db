@@ -30,6 +30,7 @@ module.exports = [
   'https://github.com/codefoundries/UniversalRelayBoilerplate',
   'https://github.com/coryhouse/react-flux-starter-kit',
   'https://github.com/coryhouse/react-slingshot',
+  'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
   'https://github.com/dvajs/dva',
   'https://github.com/DominicTobias/universal-react',
