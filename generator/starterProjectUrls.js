@@ -14,6 +14,7 @@ module.exports = [
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
   'https://github.com/alicoding/react-webpack-babel',
+  'https://github.com/amaurymartiny/react-redux-auth0-kit',
   'https://github.com/andy9775/YARSP',
   'https://github.com/anorudes/redux-easy-boilerplate',
   'https://github.com/atSistemas/react-base',
@@ -30,6 +31,7 @@ module.exports = [
   'https://github.com/codefoundries/UniversalRelayBoilerplate',
   'https://github.com/coryhouse/react-flux-starter-kit',
   'https://github.com/coryhouse/react-slingshot',
+  'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
   'https://github.com/dvajs/dva',
   'https://github.com/DominicTobias/universal-react',
@@ -43,6 +45,7 @@ module.exports = [
   'https://github.com/futurice/pepperoni-app-kit',
   'https://github.com/gaearon/react-hot-boilerplate',
   'https://github.com/goshakkk/no-bs-react-webpack-starter',
+  'https://github.com/granmoe/react-redux-saga-boilerplate',
   'https://github.com/Granze/react-starterify',
   'https://github.com/iam4x/isomorphic-flux-boilerplate',
   'https://github.com/irvinebroque/isomorphic-hot-loader',
@@ -107,9 +110,11 @@ module.exports = [
   'https://github.com/wdjungst/react-project',
   'https://github.com/weblancaster/node-react-stack-kit',
   'https://github.com/webpack/react-starter',
+  'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
   'https://github.com/wwsun/starter-node-react',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
+  'https://github.com/Cretezy/react-redux-router-firebase',
 
   // package.json elsewhere, or needs tag adjustments
   {
