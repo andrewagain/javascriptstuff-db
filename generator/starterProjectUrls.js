@@ -113,7 +113,7 @@ module.exports = [
   'https://github.com/vutran/spa-starter-kit',
   'https://github.com/wbkd/react-starterkit',
   'https://github.com/wdjungst/react-project',
-  'https://github.com/weblancaster/node-react-stack-kit',
+  'https://github.com/weblancaster/seed-react-project',
   'https://github.com/webpack/react-starter',
   'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
   'https://github.com/wwsun/starter-node-react',
