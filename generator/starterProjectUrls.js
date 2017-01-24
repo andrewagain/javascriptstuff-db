@@ -43,6 +43,7 @@ module.exports = [
   'https://github.com/futurice/pepperoni-app-kit',
   'https://github.com/gaearon/react-hot-boilerplate',
   'https://github.com/goshakkk/no-bs-react-webpack-starter',
+  'https://github.com/granmoe/react-redux-saga-boilerplate',
   'https://github.com/Granze/react-starterify',
   'https://github.com/iam4x/isomorphic-flux-boilerplate',
   'https://github.com/irvinebroque/isomorphic-hot-loader',
