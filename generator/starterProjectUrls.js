@@ -35,6 +35,7 @@ module.exports = [
   'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
   'https://github.com/dvajs/dva',
+  'https://github.com/diegohaz/arc',
   'https://github.com/DominicTobias/universal-react',
   'https://github.com/dozoisch/koa-react-full-example',
   'https://github.com/eanplatter/react-starter',
