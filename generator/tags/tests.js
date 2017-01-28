@@ -11,6 +11,7 @@ const tag = {
 
     const packageNames = [
       'jest',
+      'jest-cli',
       'mocha',
       'jasmine',
       'karma',
