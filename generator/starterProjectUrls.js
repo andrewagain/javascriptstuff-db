@@ -80,7 +80,6 @@ module.exports = [
   'https://github.com/MoOx/phenomic',
   'https://github.com/ngduc/react-setup',
   'https://github.com/nicholaswyoung/react-boilerplate',
-  'https://github.com/NYTimes/kyt',
   'https://github.com/olebedev/go-starter-kit',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
   'https://github.com/PBRT/reactogo',
@@ -159,6 +158,18 @@ module.exports = [
     url: 'https://github.com/aspnet/JavaScriptServices',
     packagePaths: [
       'templates/ReactSpa/package.json',
+    ],
+  },
+  {
+    url: 'https://github.com/NYTimes/kyt',
+    packagePaths: [
+      'packages/kyt-core/package.json',
+      'packages/kyt-starter-universal/package.json',
+      'packages/kyt-starter-static/package.json',
+      'packages/babel-preset-kyt-react/package.json',
+      'packages/babel-preset-kyt-core/package.json',
+      'packages/eslint-config-kyt/package.json',
+      'packages/stylelint-config-kyt/package.json',
     ],
   },
 ];
