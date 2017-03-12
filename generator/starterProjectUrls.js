@@ -53,6 +53,7 @@ module.exports = [
   'https://github.com/iam4x/isomorphic-flux-boilerplate',
   'https://github.com/irvinebroque/isomorphic-hot-loader',
   'https://github.com/ivanzotov/react-native-example',
+  'https://github.com/jahe/jahe-react-starter',
   'https://github.com/janoist1/universal-react-redux-starter-kit',
   'https://github.com/jaredpalmer/react-production-starter',
   'https://github.com/jcreamer898/expressiso',
