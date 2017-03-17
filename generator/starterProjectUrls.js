@@ -35,6 +35,7 @@ module.exports = [
   'https://github.com/Cretezy/react-redux-router-firebase',
   'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
+  'https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate',
   'https://github.com/diegohaz/arc',
   'https://github.com/DominicTobias/universal-react',
   'https://github.com/dozoisch/koa-react-full-example',
