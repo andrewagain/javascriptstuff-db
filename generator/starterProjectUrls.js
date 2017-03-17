@@ -10,7 +10,6 @@
  */
 module.exports = [
   // package.json in project root
-  'https://github.com/red-gate/redgate-react-starter-kit',
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
@@ -94,8 +93,10 @@ module.exports = [
   'https://github.com/rbartoli/react-boilerplate',
   'https://github.com/react-boilerplate/react-boilerplate',
   'https://github.com/reactGo/reactGo',
+  'https://github.com/red-gate/redgate-react-starter-kit',
   'https://github.com/RickWong/react-isomorphic-starterkit',
   'https://github.com/rofrol/react-starter-kit',
+  'https://github.com/Rulox/react-atomic-structure',
   'https://github.com/RyanCCollins/scalable-react-boilerplate',
   'https://github.com/saikat/react-apollo-starter-kit',
   'https://github.com/skolmer/react-hot-boilerplate-vscode',
@@ -119,7 +120,6 @@ module.exports = [
   'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
   'https://github.com/wwsun/starter-node-react',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
-  'https://github.com/Rulox/react-atomic-structure/',
   'https://github.com/zxbodya/reactive-widgets',
 
   // package.json elsewhere, or needs tag adjustments
