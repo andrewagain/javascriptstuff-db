@@ -66,13 +66,17 @@ function growSeed(github, repo, outerCallback) {
       owner: repo.userName(),
       repo: repo.repoName(),
     }, (error, response) => {
-      if (error || !response || !response.content) {
-        // errors are basically ignored - we don't always need to get the readme data
-        console.log(`Error fetching readme for ${repo.githubPath()}: ${error}`); // eslint-disable-line no-console
+      if (error || !response || !response.data || !response.data.content) {
+        console.log(`Error fetching readme for ${repo.githubPath()}: ${error}`);
         callback(error);
         return;
       }
-      callback(null, response.content);
+      if (response.data.encoding !== 'base64') {
+        callback(new Error(`Unexpected encoding for readme: "${response.data.encoding}"`));
+        return;
+      }
+      const str = new Buffer(response.data.content, 'base64').toString();
+      callback(null, str);
     });
   }
 
@@ -117,6 +121,21 @@ function growSeed(github, repo, outerCallback) {
   });
 }
 
+function growSeedRetry(github, repo, index, total, cb) {
+  const logPrefix = `[${index + 1}/${total}] ${repo.githubPath()}`;
+  async.retry(3, (taskCallback, results) => {
+    const attemptNumber = (results || []).length + 1;
+    growSeed(github, repo, (error, value) => {
+      if (error) {
+        console.log(`${logPrefix} Attempt #${attemptNumber} failure:`, error);
+      } else {
+        console.log(`${logPrefix} downloaded`);
+      }
+      taskCallback(error, value);
+    });
+  }, cb);
+}
+
 /**
  * Given a list of 'repos', grow each one into a 'tree'.
  * @param  {[Seed]} repoList    array of repo objects
@@ -134,8 +153,9 @@ module.exports = function growSeeds(repoList, callback) {
     token: process.env.GITHUB_TOKEN,
   });
 
-  async.map(repoList, (repo, cb) => {
-    growSeed(github, repo, cb);
+  async.mapSeries(repoList, (repo, cb) => {
+    const index = repoList.indexOf(repo);
+    growSeedRetry(github, repo, index, repoList.length, cb);
   }, callback);
 };
 

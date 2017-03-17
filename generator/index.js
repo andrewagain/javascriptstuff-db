@@ -14,6 +14,12 @@ dotenv.config();
 
 const seeds = starterProjectUrls.map(githubUrl => new Repository(githubUrl));
 growSeeds(seeds, (error, trees) => {
+  if (error) {
+    console.log('Error fetching repository details:', error);
+    return;
+  }
+  console.log(`Successfully downloaded details for ${trees.length} repositories`);
+
   trees.sort((a, b) => {
     return a.createdAt < b.createdAt ? -1 : 1;
   });
