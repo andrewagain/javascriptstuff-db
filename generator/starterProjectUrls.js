@@ -25,6 +25,7 @@ module.exports = [
   'https://github.com/bharani91/react-express-starter',
   'https://github.com/birkir/react-typescript-iso-kit',
   'https://github.com/bradleyboy/yarsk',
+  'https://github.com/brybrophy/brophy-react-starter',
   'https://github.com/bvanreeven/react-typescript',
   'https://github.com/catalin-luntraru/redux-minimal',
   'https://github.com/cdebotton/react-universal',
