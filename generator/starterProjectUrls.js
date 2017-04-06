@@ -71,6 +71,7 @@ module.exports = [
   'https://github.com/kriasoft/react-starter-kit',
   'https://github.com/kriasoft/react-static-boilerplate',
   'https://github.com/KyleAMathews/coffee-react-quickstart',
+  'https://github.com/LEINWAND/react-redux-app',
   'https://github.com/lubien/koa-react-redux-universal-boilerplate',
   'https://github.com/lynnaloo/mullet',
   'https://github.com/MadeInHaus/react-flux-gulp-starter',
