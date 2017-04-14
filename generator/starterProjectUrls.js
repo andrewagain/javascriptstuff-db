@@ -63,6 +63,8 @@ module.exports = [
   'https://github.com/jeffschwartz/react-quickstart',
   'https://github.com/jim-y/fluxury',
   'https://github.com/jkup/react-app-starter',
+  'https://github.com/jquintozamora/react-es6-webpack-minimal-starter-template',
+  'https://github.com/jquintozamora/react-typescript-webpack2-cssModules-postCSS',
   'https://github.com/khalilgharbaoui/flux-boilerplate',
   'https://github.com/koba04/react-boilerplate',
   'https://github.com/krasimir/react-webpack-starter',
