@@ -180,4 +180,11 @@ module.exports = [
       'packages/stylelint-config-kyt/package.json',
     ],
   },
+  {
+    url: 'https://github.com/agrcrobles/react-native-web-boilerplate',
+    packagePaths: [
+      'electron/package.json',
+      'web/package.json',
+    ],
+  },
 ];
