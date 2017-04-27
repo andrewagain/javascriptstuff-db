@@ -124,6 +124,7 @@ module.exports = [
   'https://github.com/webpack/react-starter',
   'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
   'https://github.com/wwsun/starter-node-react',
+  'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
 
