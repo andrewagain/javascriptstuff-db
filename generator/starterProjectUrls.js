@@ -103,6 +103,7 @@ module.exports = [
   'https://github.com/rofrol/react-starter-kit',
   'https://github.com/Rulox/react-atomic-structure',
   'https://github.com/saikat/react-apollo-starter-kit',
+  'https://github.com/samblake/react-native-typescript-starter-2017',
   'https://github.com/scalable-react/scalable-react-boilerplate',
   'https://github.com/skolmer/react-hot-boilerplate-vscode',
   'https://github.com/stample/gulp-browserify-react-phonegap-starter',
