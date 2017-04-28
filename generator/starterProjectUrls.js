@@ -87,6 +87,7 @@ module.exports = [
   'https://github.com/MoOx/phenomic',
   'https://github.com/ngduc/react-setup',
   'https://github.com/nicholaswyoung/react-boilerplate',
+  'https://github.com/obetomuniz/reeakt',
   'https://github.com/olebedev/go-starter-kit',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
   'https://github.com/PBRT/reactogo',
@@ -118,6 +119,7 @@ module.exports = [
   'https://github.com/unicorn-standard/starter-kit',
   'https://github.com/vasanthk/react-universal-starter',
   'https://github.com/vesparny/react-kickstart',
+  'https://github.com/vitalybe/ReactNativeUniversal',
   'https://github.com/VodkaBears/another-one-fucking-boilerplate',
   'https://github.com/vutran/spa-starter-kit',
   'https://github.com/wbkd/react-starterkit',
@@ -129,8 +131,6 @@ module.exports = [
   'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
-  'https://github.com/vitalybe/ReactNativeUniversal',
-  'https://github.com/obetomuniz/reeakt',
 
   // package.json elsewhere, or needs tag adjustments
   {
@@ -176,20 +176,22 @@ module.exports = [
   {
     url: 'https://github.com/NYTimes/kyt',
     packagePaths: [
-      'packages/kyt-core/package.json',
-      'packages/kyt-starter-universal/package.json',
-      'packages/kyt-starter-static/package.json',
-      'packages/babel-preset-kyt-react/package.json',
       'packages/babel-preset-kyt-core/package.json',
+      'packages/babel-preset-kyt-react/package.json',
       'packages/eslint-config-kyt/package.json',
+      'packages/kyt-cli/package.json',
+      'packages/kyt-core/package.json',
+      'packages/kyt-starter-static/package.json',
+      'packages/kyt-starter-universal/package.json',
+      'packages/kyt-utils/package.json',
       'packages/stylelint-config-kyt/package.json',
     ],
   },
   {
     url: 'https://github.com/agrcrobles/react-native-web-boilerplate',
     packagePaths: [
+      'package.json',
       'electron/package.json',
-      'web/package.json',
     ],
   },
 ];

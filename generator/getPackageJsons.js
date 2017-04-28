@@ -14,6 +14,7 @@ function getPackageJson(packageJsonUrl, callback) {
       callback(null, parsed);
       return;
     }
+    console.log(`Error fetching package JSON ${packageJsonUrl}. Error: ${error}`);
     callback(error, null);
   });
 }
@@ -26,9 +27,6 @@ function getPackageJson(packageJsonUrl, callback) {
  * @param  {String[]} packageJsonPaths array of paths to package.json - no leading slash
  */
 module.exports = function getPackageJsons(githubRepoPath, packageJsonPaths, callback) {
-  const packageUrls = packageJsonPaths.map(packageJsonPath =>
-    `https://raw.githubusercontent.com/${githubRepoPath}/master/${packageJsonPath}`
-  );
-
+  const packageUrls = packageJsonPaths.map(packageJsonPath => `https://raw.githubusercontent.com/${githubRepoPath}/master/${packageJsonPath}`);
   async.map(packageUrls, getPackageJson, callback);
 };

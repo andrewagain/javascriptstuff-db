@@ -17,6 +17,7 @@ const tests = require('./tests');
 const typescript = require('./typescript');
 const universal = require('./universal');
 const webpack = require('./webpack');
+const webpack2 = require('./webpack2');
 
 const tags = [
   babel,
@@ -38,5 +39,6 @@ const tags = [
   typescript,
   universal,
   webpack,
+  webpack2,
 ];
 module.exports = tags;
