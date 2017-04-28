@@ -128,6 +128,7 @@ module.exports = [
   'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
+  'https://github.com/obetomuniz/reeakt',
 
   // package.json elsewhere, or needs tag adjustments
   {
