@@ -103,6 +103,7 @@ module.exports = [
   'https://github.com/rofrol/react-starter-kit',
   'https://github.com/Rulox/react-atomic-structure',
   'https://github.com/saikat/react-apollo-starter-kit',
+  'https://github.com/samblake/react-native-typescript-starter-2017',
   'https://github.com/scalable-react/scalable-react-boilerplate',
   'https://github.com/skolmer/react-hot-boilerplate-vscode',
   'https://github.com/stample/gulp-browserify-react-phonegap-starter',
@@ -124,9 +125,11 @@ module.exports = [
   'https://github.com/webpack/react-starter',
   'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
   'https://github.com/wwsun/starter-node-react',
+  'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/zxbodya/reactive-widgets',
   'https://github.com/vitalybe/ReactNativeUniversal',
+  'https://github.com/obetomuniz/reeakt',
 
   // package.json elsewhere, or needs tag adjustments
   {
