@@ -58,7 +58,7 @@ module.exports = [
   'https://github.com/ivanzotov/react-native-example',
   'https://github.com/jahe/jahe-react-starter',
   'https://github.com/janoist1/universal-react-redux-starter-kit',
-  'https://github.com/jaredpalmer/react-production-starter',
+  'https://github.com/jaredpalmer/razzle',
   'https://github.com/jcreamer898/expressiso',
   'https://github.com/jedireza/aqua',
   'https://github.com/jeffschwartz/react-quickstart',
