@@ -1,8 +1,8 @@
 module.exports = {
-  name: 'Webpack 2',
+  name: 'webpack 2',
   alternateNames: ['webpack2'],
   description: 'Webpack 2 was released in Jan 2017 and includes some breaking changes.',
-  color: '#4D94FF',
+  color: '#8Df4FF',
 
   match: function matchFunc(seed, packageJson) {
     const dependencies = Object.assign({}, packageJson.dependencies, packageJson.devDependencies);
