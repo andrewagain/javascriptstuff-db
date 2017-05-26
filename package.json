@@ -1,6 +1,6 @@
 {
   "name": "tool-list",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Starter project / boilerplate list.",
   "main": "lib/index.js",
   "repository": {
