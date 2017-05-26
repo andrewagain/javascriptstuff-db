@@ -132,6 +132,7 @@ module.exports = [
   'https://github.com/wwsun/starter-node-react',
   'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
+  'https://github.com/YUzhva/create-react-redux-app',
   'https://github.com/zeit/next.js',
   'https://github.com/zxbodya/reactive-widgets',
 
