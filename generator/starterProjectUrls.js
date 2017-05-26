@@ -128,6 +128,7 @@ module.exports = [
   'https://github.com/weblancaster/seed-react-project',
   'https://github.com/webpack/react-starter',
   'https://github.com/WeLikeGraphQL/universal-react-apollo-example',
+  'https://github.com/wellyshen/react-cool-starter/',
   'https://github.com/wwsun/starter-node-react',
   'https://github.com/xkawi/react-universal-saga',
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
