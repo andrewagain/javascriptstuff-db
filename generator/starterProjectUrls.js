@@ -122,7 +122,7 @@ module.exports = [
   'https://github.com/vasanthk/react-universal-starter',
   'https://github.com/vesparny/react-kickstart',
   'https://github.com/vitalybe/ReactNativeUniversal',
-  'https://github.com/VodkaBears/another-one-fucking-boilerplate',
+  'https://github.com/vodkabears/another-one-fucking-boilerplate',
   'https://github.com/VulcanJS/Vulcan',
   'https://github.com/vutran/spa-starter-kit',
   'https://github.com/wbkd/react-starterkit',
