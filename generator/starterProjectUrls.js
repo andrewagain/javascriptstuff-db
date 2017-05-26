@@ -67,6 +67,7 @@ module.exports = [
   'https://github.com/jquintozamora/react-es6-webpack-minimal-starter-template',
   'https://github.com/jquintozamora/react-typescript-webpack2-cssModules-postCSS',
   'https://github.com/khalilgharbaoui/flux-boilerplate',
+  'https://github.com/kireerik/razzle-material-ui-styled-example',
   'https://github.com/koba04/react-boilerplate',
   'https://github.com/krasimir/react-webpack-starter',
   'https://github.com/kriasoft/aspnet-starter-kit',
