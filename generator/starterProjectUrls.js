@@ -38,7 +38,7 @@ module.exports = [
   'https://github.com/davezuko/react-redux-starter-kit',
   'https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate',
   'https://github.com/diegohaz/arc',
-  'https://github.com/djizco/boilerplate-react'
+  'https://github.com/djizco/boilerplate-react',
   'https://github.com/DominicTobias/universal-react',
   'https://github.com/dozoisch/koa-react-full-example',
   'https://github.com/dvajs/dva',
