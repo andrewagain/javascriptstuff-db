@@ -99,11 +99,11 @@ function growSeed(github, repo, outerCallback) {
 
     // Set data from github
     tree.starCount = githubData.stargazers_count;
-    tree.description = githubData.description;
-    tree.homepage = githubData.homepage;
-    tree.updatedAt = githubData.updated_at;
-    tree.createdAt = githubData.created_at;
-    tree.pushedAt = githubData.pushed_at;
+    tree.description = githubData.data.description;
+    tree.homepage = githubData.data.homepage;
+    tree.updatedAt = githubData.data.updated_at;
+    tree.createdAt = githubData.data.created_at;
+    tree.pushedAt = githubData.data.pushed_at;
 
     // Set dependencies and tags
     tree.dependencies = packUtil.allDependencies();
