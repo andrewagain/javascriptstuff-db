@@ -113,6 +113,7 @@ module.exports = [
   'https://github.com/stample/gulp-browserify-react-phonegap-starter',
   'https://github.com/start-react/native-starter-kit',
   'https://github.com/stoikerty/dev-toolkit',
+  'https://github.com/Stupidism/stupid-rc-starter',
   'https://github.com/substack/react-starter-hmr',
   'https://github.com/survivejs/react-component-boilerplate',
   'https://github.com/tinkertrain/jspm-react',
