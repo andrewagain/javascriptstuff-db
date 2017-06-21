@@ -110,6 +110,7 @@ module.exports = [
   'https://github.com/samblake/react-native-typescript-starter-2017',
   'https://github.com/scalable-react/scalable-react-boilerplate',
   'https://github.com/skolmer/react-hot-boilerplate-vscode',
+  'https://github.com/sotnikov-link/ts-react-boilerplate',
   'https://github.com/stample/gulp-browserify-react-phonegap-starter',
   'https://github.com/start-react/native-starter-kit',
   'https://github.com/stoikerty/dev-toolkit',
