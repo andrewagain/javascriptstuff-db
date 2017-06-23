@@ -13,6 +13,7 @@ module.exports = [
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
+  'https://github.com/akopichin/webpack-react-template',
   'https://github.com/alicoding/react-webpack-babel',
   'https://github.com/amaurymartiny/react-redux-auth0-kit',
   'https://github.com/andy9775/YARSP',
