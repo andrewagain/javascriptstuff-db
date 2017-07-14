@@ -10,7 +10,6 @@
  */
 module.exports = [
   // package.json in project root
-  'https://github.com/peppesilletti/webpack-project',
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
@@ -97,6 +96,7 @@ module.exports = [
   'https://github.com/olebedev/go-starter-kit',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
   'https://github.com/PBRT/reactogo',
+  'https://github.com/peppesilletti/webpack-project',
   'https://github.com/peter-mouland/react-lego',
   'https://github.com/phenomic/phenomic',
   'https://github.com/pheuter/essential-react',
