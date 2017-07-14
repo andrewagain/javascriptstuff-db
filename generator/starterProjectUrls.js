@@ -77,6 +77,7 @@ module.exports = [
   'https://github.com/kriasoft/babel-starter-kit',
   'https://github.com/kriasoft/react-starter-kit',
   'https://github.com/kriasoft/react-static-boilerplate',
+  'https://github.com/kristinbaumann/react-sketchapp-starter-kit',
   'https://github.com/KyleAMathews/coffee-react-quickstart',
   'https://github.com/LEINWAND/react-redux-app',
   'https://github.com/lubien/koa-react-redux-universal-boilerplate',
