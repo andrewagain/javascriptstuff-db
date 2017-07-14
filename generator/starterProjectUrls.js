@@ -88,6 +88,8 @@ module.exports = [
   'https://github.com/mikechabot/react-boilerplate',
   'https://github.com/mobxjs/mobx-react-boilerplate',
   'https://github.com/mobxjs/mobx-react-typescript-boilerplate',
+  'https://github.com/mozilla-neutrino/react-router-starter',
+  'https://github.com/mozilla-neutrino/react-starter',
   'https://github.com/ngduc/react-setup',
   'https://github.com/nicholaswyoung/react-boilerplate',
   'https://github.com/obetomuniz/reeakt',
