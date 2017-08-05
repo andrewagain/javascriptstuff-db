@@ -94,6 +94,7 @@ module.exports = [
   'https://github.com/nicholaswyoung/react-boilerplate',
   'https://github.com/obetomuniz/reeakt',
   'https://github.com/olebedev/go-starter-kit',
+  'https://github.com/oscarmorrison/react-webpack-starter',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
   'https://github.com/PBRT/reactogo',
   'https://github.com/peppesilletti/webpack-project',
