@@ -125,6 +125,7 @@ module.exports = [
   'https://github.com/tinkertrain/jspm-react',
   'https://github.com/tosFa/react-cross-platform-boardgame-example',
   'https://github.com/tpai/r2-starter-kit',
+  'https://github.com/troyedwardsjr/redux-electron-todo-example',
   'https://github.com/unicorn-standard/starter-kit',
   'https://github.com/vasanthk/react-universal-starter',
   'https://github.com/vesparny/react-kickstart',
