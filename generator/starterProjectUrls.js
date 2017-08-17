@@ -25,6 +25,7 @@ module.exports = [
   'https://github.com/bartonhammond/snowflake',
   'https://github.com/bharani91/react-express-starter',
   'https://github.com/birkir/react-typescript-iso-kit',
+  'https://github.com/boiyaa/react-redux-elm-boilerplate',
   'https://github.com/bradleyboy/yarsk',
   'https://github.com/brybrophy/brophy-react-starter',
   'https://github.com/bvanreeven/react-typescript',
