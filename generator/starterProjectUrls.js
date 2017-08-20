@@ -102,6 +102,7 @@ module.exports = [
   'https://github.com/pheuter/essential-react',
   'https://github.com/piotrwitek/react-redux-typescript-starter-kit',
   'https://github.com/przeor/react-router-flux-starter-kit',
+  'https://github.com/radenkovic/react-vanilla',
   'https://github.com/rangle/react-redux-example',
   'https://github.com/rauschma/react-starter-project',
   'https://github.com/rbartoli/react-boilerplate',
