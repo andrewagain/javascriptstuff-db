@@ -144,6 +144,7 @@ module.exports = [
   'https://github.com/YUzhva/create-react-redux-app',
   'https://github.com/zeit/next.js',
   'https://github.com/zxbodya/reactive-widgets',
+  'https://github.com/lifenautjoe/webpack-starter-basic',
 
   // package.json elsewhere, or needs tag adjustments
   {
