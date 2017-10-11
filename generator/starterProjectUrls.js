@@ -45,6 +45,7 @@ module.exports = [
   'https://github.com/dvajs/dva',
   'https://github.com/eanplatter/react-starter',
   'https://github.com/elierotenberg/react-rails-starterkit',
+  'https://github.com/emyann/typescript-webpack-starter'
   'https://github.com/ericelliott/react-pure-component-starter',
   'https://github.com/erikras/react-redux-universal-hot-example',
   'https://github.com/este/este',
