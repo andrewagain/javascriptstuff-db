@@ -10,7 +10,6 @@
  */
 module.exports = [
   // package.json in project root
-  'https://github.com/iroy2000/react-redux-boilerplate',
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
@@ -41,6 +40,7 @@ module.exports = [
   'https://github.com/ctrlplusb/react-universally',
   'https://github.com/davezuko/react-redux-starter-kit',
   'https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate',
+  'https://github.com/developer239/workbox-webpack-react',
   'https://github.com/diegohaz/arc',
   'https://github.com/djizco/boilerplate-react',
   'https://github.com/DominicTobias/universal-react',
@@ -48,7 +48,7 @@ module.exports = [
   'https://github.com/dvajs/dva',
   'https://github.com/eanplatter/react-starter',
   'https://github.com/elierotenberg/react-rails-starterkit',
-  'https://github.com/emyann/typescript-webpack-starter'
+  'https://github.com/emyann/typescript-webpack-starter',
   'https://github.com/ericelliott/react-pure-component-starter',
   'https://github.com/erikras/react-redux-universal-hot-example',
   'https://github.com/este/este',
@@ -60,6 +60,7 @@ module.exports = [
   'https://github.com/granmoe/react-redux-saga-boilerplate',
   'https://github.com/Granze/react-starterify',
   'https://github.com/iam4x/isomorphic-flux-boilerplate',
+  'https://github.com/iroy2000/react-redux-boilerplate',
   'https://github.com/irvinebroque/isomorphic-hot-loader',
   'https://github.com/ivanzotov/react-native-example',
   'https://github.com/jahe/jahe-react-starter',
@@ -83,6 +84,7 @@ module.exports = [
   'https://github.com/kristinbaumann/react-sketchapp-starter-kit',
   'https://github.com/KyleAMathews/coffee-react-quickstart',
   'https://github.com/LEINWAND/react-redux-app',
+  'https://github.com/lifenautjoe/webpack-starter-basic',
   'https://github.com/lubien/koa-react-redux-universal-boilerplate',
   'https://github.com/lynnaloo/mullet',
   'https://github.com/madeagency/reactivity',
@@ -129,8 +131,8 @@ module.exports = [
   'https://github.com/Stupidism/stupid-rc-starter',
   'https://github.com/substack/react-starter-hmr',
   'https://github.com/survivejs/react-component-boilerplate',
-  'https://github.com/Technologeek/react-webpack-3-boilerplate'
   'https://github.com/sysgears/apollo-universal-starter-kit',
+  'https://github.com/Technologeek/react-webpack-3-boilerplate',
   'https://github.com/tinkertrain/jspm-react',
   'https://github.com/tosFa/react-cross-platform-boardgame-example',
   'https://github.com/tpai/r2-starter-kit',
@@ -154,7 +156,6 @@ module.exports = [
   'https://github.com/YUzhva/create-react-redux-app',
   'https://github.com/zeit/next.js',
   'https://github.com/zxbodya/reactive-widgets',
-  'https://github.com/lifenautjoe/webpack-starter-basic',
 
   // package.json elsewhere, or needs tag adjustments
   {
@@ -189,12 +190,6 @@ module.exports = [
     url: 'https://github.com/pauldotknopf/react-aspnet-boilerplate',
     packagePaths: [
       'src/ReactBoilerplate/package.json',
-    ],
-  },
-  {
-    url: 'https://github.com/aspnet/JavaScriptServices',
-    packagePaths: [
-      'templates/ReactSpa/package.json',
     ],
   },
   {
