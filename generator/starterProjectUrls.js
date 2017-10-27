@@ -129,6 +129,7 @@ module.exports = [
   'https://github.com/Stupidism/stupid-rc-starter',
   'https://github.com/substack/react-starter-hmr',
   'https://github.com/survivejs/react-component-boilerplate',
+  'https://github.com/Technologeek/react-webpack-3-boilerplate'
   'https://github.com/sysgears/apollo-universal-starter-kit',
   'https://github.com/tinkertrain/jspm-react',
   'https://github.com/tosFa/react-cross-platform-boardgame-example',
