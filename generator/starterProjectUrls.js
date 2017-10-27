@@ -10,6 +10,7 @@
  */
 module.exports = [
   // package.json in project root
+  'https://github.com/iroy2000/react-redux-boilerplate',
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
