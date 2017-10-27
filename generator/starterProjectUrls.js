@@ -19,6 +19,7 @@ module.exports = [
   'https://github.com/andy9775/YARSP',
   'https://github.com/anorudes/redux-easy-boilerplate',
   'https://github.com/atSistemas/react-base',
+  'https://github.com/Atyantik/react-pwa',
   'https://github.com/BackSpaceTech/react-bootstrap-boilerplate',
   'https://github.com/balupton/minimal-react',
   'https://github.com/barbar/vortigern',
