@@ -10,6 +10,7 @@
  */
 module.exports = [
   // package.json in project root
+  'https://github.com/iroy2000/react-redux-boilerplate',
   'https://github.com/a-tarasyuk/rr-boilerplate',
   'https://github.com/acdlite/flummox-isomorphic-demo',
   'https://github.com/adampash/react-native-hot-redux-starter',
@@ -19,12 +20,14 @@ module.exports = [
   'https://github.com/andy9775/YARSP',
   'https://github.com/anorudes/redux-easy-boilerplate',
   'https://github.com/atSistemas/react-base',
+  'https://github.com/Atyantik/react-pwa',
   'https://github.com/BackSpaceTech/react-bootstrap-boilerplate',
   'https://github.com/balupton/minimal-react',
   'https://github.com/barbar/vortigern',
   'https://github.com/bartonhammond/snowflake',
   'https://github.com/bharani91/react-express-starter',
   'https://github.com/birkir/react-typescript-iso-kit',
+  'https://github.com/boiyaa/react-redux-elm-boilerplate',
   'https://github.com/bradleyboy/yarsk',
   'https://github.com/brybrophy/brophy-react-starter',
   'https://github.com/bvanreeven/react-typescript',
@@ -45,6 +48,7 @@ module.exports = [
   'https://github.com/dvajs/dva',
   'https://github.com/eanplatter/react-starter',
   'https://github.com/elierotenberg/react-rails-starterkit',
+  'https://github.com/emyann/typescript-webpack-starter'
   'https://github.com/ericelliott/react-pure-component-starter',
   'https://github.com/erikras/react-redux-universal-hot-example',
   'https://github.com/este/este',
@@ -81,6 +85,7 @@ module.exports = [
   'https://github.com/LEINWAND/react-redux-app',
   'https://github.com/lubien/koa-react-redux-universal-boilerplate',
   'https://github.com/lynnaloo/mullet',
+  'https://github.com/madeagency/reactivity',
   'https://github.com/MadeInHaus/react-flux-gulp-starter',
   'https://github.com/madnight/react-webpack-babel-karma-boilerplate',
   'https://github.com/mcnamee/react-native-starter-app',
@@ -94,6 +99,7 @@ module.exports = [
   'https://github.com/nicholaswyoung/react-boilerplate',
   'https://github.com/obetomuniz/reeakt',
   'https://github.com/olebedev/go-starter-kit',
+  'https://github.com/oscarmorrison/react-webpack-starter',
   'https://github.com/osxi/react-pouch-redux-starter-kit',
   'https://github.com/PBRT/reactogo',
   'https://github.com/peppesilletti/webpack-project',
@@ -102,6 +108,7 @@ module.exports = [
   'https://github.com/pheuter/essential-react',
   'https://github.com/piotrwitek/react-redux-typescript-starter-kit',
   'https://github.com/przeor/react-router-flux-starter-kit',
+  'https://github.com/radenkovic/react-vanilla',
   'https://github.com/rangle/react-redux-example',
   'https://github.com/rauschma/react-starter-project',
   'https://github.com/rbartoli/react-boilerplate',
@@ -123,9 +130,11 @@ module.exports = [
   'https://github.com/substack/react-starter-hmr',
   'https://github.com/survivejs/react-component-boilerplate',
   'https://github.com/Technologeek/react-webpack-3-boilerplate'
+  'https://github.com/sysgears/apollo-universal-starter-kit',
   'https://github.com/tinkertrain/jspm-react',
   'https://github.com/tosFa/react-cross-platform-boardgame-example',
   'https://github.com/tpai/r2-starter-kit',
+  'https://github.com/troyedwardsjr/redux-electron-todo-example',
   'https://github.com/unicorn-standard/starter-kit',
   'https://github.com/vasanthk/react-universal-starter',
   'https://github.com/vesparny/react-kickstart',
@@ -145,6 +154,7 @@ module.exports = [
   'https://github.com/YUzhva/create-react-redux-app',
   'https://github.com/zeit/next.js',
   'https://github.com/zxbodya/reactive-widgets',
+  'https://github.com/lifenautjoe/webpack-starter-basic',
 
   // package.json elsewhere, or needs tag adjustments
   {
