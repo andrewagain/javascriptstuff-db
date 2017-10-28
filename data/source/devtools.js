@@ -9,6 +9,7 @@ module.exports = {
 
   projects: [
     { url: "https://github.com/FormidableLabs/webpack-dashboard" },
-    { url: "https://github.com/typicode/husky" }
+    { url: "https://github.com/typicode/husky" },
+    { url: "https://github.com/okonet/lint-staged" }
   ]
 };

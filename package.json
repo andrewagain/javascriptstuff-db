@@ -17,6 +17,8 @@
     "eslint-plugin-mocha": "^4.11.0",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
     "prettier": "^1.7.3",
     "prettier-eslint": "^8.2.0"
   },
@@ -34,6 +36,10 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "build": "npm --prefix gather start"
+    "build": "npm --prefix gather start",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
   }
 }
