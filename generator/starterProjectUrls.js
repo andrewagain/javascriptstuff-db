@@ -51,6 +51,7 @@ module.exports = [
   'https://github.com/emyann/typescript-webpack-starter',
   'https://github.com/ericelliott/react-pure-component-starter',
   'https://github.com/erikras/react-redux-universal-hot-example',
+  'https://github.com/esausilva/react-starter-boilerplate-hmr',
   'https://github.com/este/este',
   'https://github.com/foxhound87/rfx-stack',
   'https://github.com/futurice/pepperoni-app-kit',
@@ -160,37 +161,27 @@ module.exports = [
   // package.json elsewhere, or needs tag adjustments
   {
     url: 'https://github.com/facebookincubator/create-react-app',
-    nonTags: ['CSS Modules'],
+    nonTags: ['CSS Modules']
   },
   {
     url: 'https://github.com/ahfarmer/minimal-react-starter',
-    additionalTags: ['HMR'],
+    additionalTags: ['HMR']
   },
   {
     url: 'https://github.com/FredericHeem/starhackit',
-    packagePaths: [
-      'client/package.json',
-      'server/package.json',
-    ],
+    packagePaths: ['client/package.json', 'server/package.json']
   },
   {
     url: 'https://github.com/kjda/ReactJs-Phonegap',
-    packagePaths: [
-      'app/package.json',
-      'server/package.json',
-    ],
+    packagePaths: ['app/package.json', 'server/package.json']
   },
   {
     url: 'https://github.com/geowarin/boot-react',
-    packagePaths: [
-      'frontend/package.json',
-    ],
+    packagePaths: ['frontend/package.json']
   },
   {
     url: 'https://github.com/pauldotknopf/react-aspnet-boilerplate',
-    packagePaths: [
-      'src/ReactBoilerplate/package.json',
-    ],
+    packagePaths: ['src/ReactBoilerplate/package.json']
   },
   {
     url: 'https://github.com/NYTimes/kyt',
@@ -203,14 +194,11 @@ module.exports = [
       'packages/kyt-starter-static/package.json',
       'packages/kyt-starter-universal/package.json',
       'packages/kyt-utils/package.json',
-      'packages/stylelint-config-kyt/package.json',
-    ],
+      'packages/stylelint-config-kyt/package.json'
+    ]
   },
   {
     url: 'https://github.com/agrcrobles/react-native-web-boilerplate',
-    packagePaths: [
-      'package.json',
-      'electron/package.json',
-    ],
-  },
+    packagePaths: ['package.json', 'electron/package.json']
+  }
 ];
