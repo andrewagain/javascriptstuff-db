@@ -7,5 +7,8 @@ module.exports = {
 
   tags: [],
 
-  projects: [{ url: "https://github.com/FormidableLabs/webpack-dashboard" }]
+  projects: [
+    { url: "https://github.com/FormidableLabs/webpack-dashboard" },
+    { url: "https://github.com/typicode/husky" }
+  ]
 };

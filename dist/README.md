@@ -20,7 +20,7 @@ const starterJson = require('javascriptstuff-db/react-starter-projects.json');
 
 
 
-Project Format
+Project Objects
 ---
 
 Projects are in this format:
@@ -69,7 +69,7 @@ Projects are in this format:
 
 
 
-Tag Format
+Tag Objects
 ---
 
 Tags are either plain strings, or objects in this format:
