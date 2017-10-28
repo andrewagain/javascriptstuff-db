@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "node generator/index.js",
-    "prepublish": "node generator/index.js"
+    "prepublishOnly": "node generator/index.js"
   },
   "keywords": [
     "tools",
