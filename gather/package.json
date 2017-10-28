@@ -1,0 +1,23 @@
+{
+  "name": "javascriptstuff-gather",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.4.1",
+    "chai": "^4.0.2",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "dotenv": "^4.0.0",
+    "fs-extra": "^3.0.1",
+    "github": "^9.2.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha \"src/**/__tests__/*.js\" \"data/**/__tests__/*.js\"",
+    "test:watch": "npm run test -- --watch"
+  }
+}

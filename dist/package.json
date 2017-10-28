@@ -1,0 +1,20 @@
+{
+  "name": "javascriptstuff-db",
+  "description": "Database of JavaScript project lists.",
+  "version": "0.13.0",
+  "author": "Andrew Farmer <ahfarmer@gmail.com>",
+  "homepage": "https://www.javascriptstuff.com",
+  "keywords": [
+    "javascript",
+    "lists",
+    "database",
+    "starter projects",
+    "boilerplates",
+    "tutorials",
+    "example code",
+    "components",
+    "react"
+  ],
+  "main": "index.js",
+  "license": "MIT"
+}

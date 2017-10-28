@@ -1,0 +1,15 @@
+{
+  "name": "javascriptstuff-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha \"util/**/__tests__/*.js\"",
+    "test:watch": "npm run test -- --watch"
+  }
+}

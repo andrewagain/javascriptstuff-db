@@ -1,0 +1,38 @@
+{
+  "name": "javascriptstuff-db-generator",
+  "description": "Generator for the JavaScript stuff database.",
+  "version": "1.0.0",
+  "author": "Andrew Farmer <ahfarmer@gmail.com>",
+  "homepage": "https://www.javascriptstuff.com",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.3",
+    "prettier-eslint": "^8.2.0"
+  },
+  "keywords": [
+    "package",
+    "library",
+    "utility",
+    "javascript",
+    "stuff",
+    "things",
+    "lists"
+  ],
+  "license": "UNLICENSED",
+  "main": "n/a",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  }
+}
