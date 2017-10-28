@@ -33,6 +33,7 @@
   "main": "n/a",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "build": "npm --prefix gather start"
   }
 }
