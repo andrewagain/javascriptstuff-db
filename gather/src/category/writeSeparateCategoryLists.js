@@ -1,9 +1,6 @@
-const systemPath = require(`path`);
-
-const fse = require(`fs-extra`);
-
 const fetchCategory = require(`./fetchCategory`);
 const paths = require(`../util/paths`);
+const writeJsAndJson = require("../util/writeJsAndJson");
 
 module.exports = function writeSeparateCategoryLists(
   githubClient,
@@ -22,11 +19,8 @@ module.exports = function writeSeparateCategoryLists(
         index,
         categorySources.length
       ).then(outputData => {
-        const outputPath = systemPath.join(
-          paths.dataBuild,
-          `${categorySource.key}.json`
-        );
-        fse.outputJsonSync(outputPath, outputData);
+        writeJsAndJson(paths.dataBuild, categorySource.key, outputData);
+
         return outputList.concat(outputData);
       })
     );

@@ -1,12 +1,12 @@
-const fse = require(`fs-extra`);
-const path = require(`path`);
+const systemPath = require(`path`);
 
 const paths = require(`../util/paths`);
 const buildCatalogue = require(`./buildCatalogue`);
+const writeJsAndJson = require("../util/writeJsAndJson");
 
 module.exports = function writeCatalogue(categorySources) {
-  const outputPath = path.join(paths.dataBuild, `catalogue.json`);
+  const outputPath = systemPath.join(paths.dataBuild, `catalogue.json`);
   const catalogue = buildCatalogue(categorySources);
-  fse.outputJsonSync(outputPath, catalogue, { spaces: 2 });
+  writeJsAndJson(paths.dataBuild, "catalogue", catalogue);
   console.log(`Wrote catalogue to ${outputPath}`);
 };
