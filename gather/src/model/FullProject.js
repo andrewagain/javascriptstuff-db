@@ -1,5 +1,15 @@
 const getDependencyNames = require(`../project/getDependencyNames`);
 
+function fixHomePage(homepage) {
+  if (!homepage || homepage.length === 0) {
+    return homepage;
+  }
+  if (!homepage.indexOf("http") !== 0) {
+    return `http://${homepage}`;
+  }
+  return homepage;
+}
+
 /**
  * 'Full projects' are objects with tons of info about a GitHub repository.
  * This includes data from a 'source project' and data from the GitHub API.
@@ -19,7 +29,7 @@ module.exports = class FullProject {
 
     this.starCount = githubData.data.stargazers_count;
     this.description = githubData.data.description;
-    this.homepage = githubData.data.homepage;
+    this.homepage = fixHomePage(githubData.data.homepage);
     this.updatedAt = githubData.data.updated_at;
     this.createdAt = githubData.data.created_at;
     this.pushedAt = githubData.data.pushed_at;
