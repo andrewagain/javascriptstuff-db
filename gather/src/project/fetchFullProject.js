@@ -11,21 +11,7 @@ function createFullProject(githubClient, sourceProject, outerCallback) {
     throw new Error(`sourceProject is null`);
   }
 
-  function taskOne(callback) {
-    fetchPackageJsons(
-      sourceProject.githubPath,
-      sourceProject.packagePaths,
-      (error, packageJsons) => {
-        if (error) {
-          callback(error, null);
-          return;
-        }
-        callback(null, mergePackageJsons(packageJsons));
-      }
-    );
-  }
-
-  function taskTwo(callback) {
+  function repoDataTask(callback) {
     githubClient.repos.get(
       {
         owner: sourceProject.owner,
@@ -35,7 +21,7 @@ function createFullProject(githubClient, sourceProject, outerCallback) {
     );
   }
 
-  function taskThree(callback) {
+  function readmeTask(callback) {
     githubClient.repos.getReadme(
       {
         owner: sourceProject.owner,
@@ -63,16 +49,35 @@ function createFullProject(githubClient, sourceProject, outerCallback) {
     );
   }
 
-  async.parallel([taskOne, taskTwo, taskThree], (error, results) => {
+  function packageJsonTask(callback) {
+    fetchPackageJsons(
+      sourceProject.githubPath,
+      sourceProject.packagePaths,
+      (error, packageJsons) => {
+        if (error) {
+          callback(error, null);
+          return;
+        }
+        callback(null, mergePackageJsons(packageJsons));
+      }
+    );
+  }
+
+  const tasks = [repoDataTask, readmeTask];
+  if (sourceProject.fetchPackageJson) {
+    tasks.push(packageJsonTask);
+  }
+
+  async.parallel(tasks, (error, results) => {
     if (error) {
       outerCallback(error, null);
       return;
     }
 
-    const packageJson = results[0];
-    const githubData = results[1];
-    const readmeStr = results[2];
-    if (!packageJson) {
+    const githubData = results[0];
+    const readmeStr = results[1];
+    const packageJson = results[2];
+    if (sourceProject.fetchPackageJson && !packageJson) {
       outerCallback(
         new Error(
           `No package.json found for source project: ${sourceProject.url}`

@@ -4,6 +4,20 @@ const uniq = require(`lodash/uniq`);
 const fetchAllFullProjects = require(`../project/fetchAllFullProjects`);
 const getCleanTag = require(`../project/getCleanTag`);
 
+function getCategoryTags(inputData) {
+  const allTags = inputData.tags || [];
+  const entities = inputData.articles || inputData.projects || [];
+  const entityTagNames = uniq(
+    entities.reduce((tags, project) => tags.concat(project.tags || []), [])
+  );
+  entityTagNames.forEach(tagName => {
+    if (!allTags.find(x => x.name === tagName)) {
+      allTags.push({ name: tagName });
+    }
+  });
+  return allTags.map(getCleanTag);
+}
+
 /**
  * Given the source data for a category, fetches all the data for that category.
  */
@@ -25,16 +39,7 @@ module.exports = function fetchCategory(
       outputData[propertyKey] = value;
     }
   });
-  const manualTagNames = (categoryData.articles ||
-    categoryData.projects ||
-    []
-  ).reduce((tags, project) => tags.concat(project.tags || []), []);
-  const manualTags = uniq(manualTagNames.map(tagName => ({ name: tagName })));
-  outputData.tags = (categoryData.tags || [])
-    .concat(manualTags)
-    .map(getCleanTag);
-  outputData.notes = categoryData.notes || ``;
-
+  outputData.tags = getCategoryTags(categoryData);
   // TODO: some processing on articles - perhaps just fetch the article meta image
   outputData.articles = !categoryData.articles
     ? []

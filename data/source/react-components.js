@@ -1,6 +1,7 @@
 module.exports = {
   key: "react-components",
   name: "React Components",
+  fetchPackageJson: true,
   description:
     "The building blocks of React apps. These are components that you can use in your own apps.",
   aka: ["React Component Libraries", "React UI Frameworks"],

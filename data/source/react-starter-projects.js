@@ -3,6 +3,7 @@ const starterProjectTags = require("./react-starter-project-tags");
 module.exports = {
   key: "react-starter-projects",
   name: "React Starter Projects",
+  fetchPackageJson: true,
   description:
     "Repositories that you can copy and modify to create your own React app.",
   aka: ["react boilerplates", "react starters", "react seeds"],

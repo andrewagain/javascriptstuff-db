@@ -1,6 +1,7 @@
 module.exports = {
   key: "react-example-apps",
   name: "React Example Apps",
+  fetchPackageJson: true,
   description: "Open-source apps that use React.",
   aka: ["react sample code", "react sample apps"],
 

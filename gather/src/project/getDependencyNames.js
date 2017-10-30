@@ -7,6 +7,9 @@ const get = require(`lodash/get`);
  * @return {String[]}
  */
 module.exports = function getDependencyNames(packageJson) {
+  if (!packageJson) {
+    return null;
+  }
   const dependencyNames = Object.keys(get(packageJson, `dependencies`, {}));
   const devDependencyNames = Object.keys(
     get(packageJson, `devDependencies`, {})
