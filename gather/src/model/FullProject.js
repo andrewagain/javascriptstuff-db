@@ -4,7 +4,7 @@ function fixHomePage(homepage) {
   if (!homepage || homepage.length === 0) {
     return homepage;
   }
-  if (!homepage.indexOf("http") !== 0) {
+  if (homepage.indexOf("http") !== 0) {
     return `http://${homepage}`;
   }
   return homepage;
