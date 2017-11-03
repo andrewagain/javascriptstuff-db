@@ -54,6 +54,7 @@ module.exports = {
       url: "https://github.com/unicorn-standard/react-pacomo",
       tags: ["react"]
     },
-    { url: "https://github.com/rtsao/styletron" }
+    { url: "https://github.com/rtsao/styletron" },
+    { url: "https://github.com/zeit/styled-jsx", tags: ["react"] }
   ]
 };

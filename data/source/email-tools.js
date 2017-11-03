@@ -9,6 +9,7 @@ module.exports = {
 
   projects: [
     { url: "https://github.com/niftylettuce/email-templates" },
-    { url: "https://github.com/nodemailer/nodemailer" }
+    { url: "https://github.com/nodemailer/nodemailer" },
+    { url: "https://github.com/freeCodeCamp/mail-for-good" }
   ]
 };

@@ -1,5 +1,10 @@
 module.exports = [
+  require("./bundlers"),
+  require("./devtools"),
+  require("./email-tools"),
+  require("./error"),
   require("./interesting"),
+  require("./javascript-tutorials"),
   require("./linters"),
   require("./loggers"),
   require("./react-components"),
@@ -8,6 +13,7 @@ module.exports = [
   require("./react-tutorials"),
   require("./static-site-generators"),
   require("./style-libraries"),
+  require("./test-utilities"),
   require("./utility-libraries"),
   require("./view-libraries")
 ];

@@ -1,10 +1,11 @@
 const includesAny = require("../util/includesAny");
 
 module.exports = {
-  key: "",
-  name: "",
-  description: "",
-  aka: [""],
+  key: "bundlers",
+  name: "Bundlers",
+  description:
+    "These are tools that transform JS and CSS. They are typically highly configurable and pluggable.",
+  aka: ["JavaScript bundlers"],
 
   tags: [
     {
@@ -16,5 +17,8 @@ module.exports = {
     }
   ],
 
-  projects: [{ url: "" }]
+  projects: [
+    { url: "https://github.com/brunch/brunch" },
+    { url: "https://github.com/webpack/webpack" }
+  ]
 };

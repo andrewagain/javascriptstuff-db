@@ -17,6 +17,7 @@ module.exports = {
     { url: "https://github.com/prettier/prettier" },
     { url: "https://github.com/CSSLint/csslint" },
     { url: "https://github.com/csscomb/csscomb.js" },
-    { url: "https://github.com/standard/standard" }
+    { url: "https://github.com/standard/standard" },
+    { url: "https://github.com/douglascrockford/JSLint" }
   ]
 };

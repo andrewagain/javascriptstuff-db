@@ -107,6 +107,9 @@ module.exports = {
 
     // Helps you compare/contrast react, angular, and other frameworks.
     // A simple todo implementation in all the different frameworks.
-    { url: "https://github.com/tastejs/todomvc" }
+    { url: "https://github.com/tastejs/todomvc" },
+
+    // maybe there should be a vue starter projects list
+    { url: "https://github.com/SimulatedGREG/electron-vue" }
   ]
 };
