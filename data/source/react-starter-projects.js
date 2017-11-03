@@ -10,6 +10,7 @@ module.exports = {
   tags: starterProjectTags,
 
   projects: [
+    { url: "https://github.com/esausilva/react-starter-boilerplate-hmr" },
     {
       url: "https://github.com/a-tarasyuk/rr-boilerplate",
       tags: ["css modules"]
