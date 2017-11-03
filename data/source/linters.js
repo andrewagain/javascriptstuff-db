@@ -19,5 +19,7 @@ module.exports = {
     { url: "https://github.com/csscomb/csscomb.js" },
     { url: "https://github.com/standard/standard" },
     { url: "https://github.com/douglascrockford/JSLint" },
+    { url: "https://github.com/eslint/eslint" },
+    { url: "https://github.com/jshint/jshint" },
   ],
 };
