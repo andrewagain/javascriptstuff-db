@@ -10,6 +10,21 @@ module.exports = {
   tags: starterProjectTags,
 
   projects: [
+    { url: "https://github.com/gatsbyjs/gatsby-starter-default" },
+    { url: "https://github.com/gatsbyjs/gatsby-starter-blog" },
+    { url: "https://github.com/gatsbyjs/gatsby-starter-hello-world" },
+    { url: "https://github.com/Vagr9K/gatsby-material-starter" },
+    { url: "https://github.com/fabien0102/gatsby-starter" },
+    { url: "https://github.com/jaxx2104/gatsby-starter-bootstrap" },
+    { url: "https://github.com/dschau/gatsby-blog-starter-kit" },
+    { url: "https://github.com/Vagr9K/gatsby-advanced-starter" },
+    { url: "https://github.com/100ideas/glitch-gatsby-starter-blog/" },
+    { url: "https://github.com/alampros/gatsby-starter-grommet" },
+    { url: "https://github.com/PrototypeInteractive/gatsby-react-boilerplate" },
+    { url: "https://github.com/angeloocana/gatsby-starter-default-i18n" },
+    { url: "https://github.com/saschajullmann/gatsby-starter-gatsbythemes" },
+    { url: "https://github.com/AustinGreen/gatsby-starter-netlify-cms" },
+    { url: "https://github.com/LeKoArts/gatsby-starter-portfolio-emma" },
     { url: "https://github.com/esausilva/react-starter-boilerplate-hmr" },
     {
       url: "https://github.com/a-tarasyuk/rr-boilerplate",

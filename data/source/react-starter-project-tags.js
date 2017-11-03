@@ -4,6 +4,12 @@ const includesAny = require("../util/includesAny");
 
 module.exports = [
   {
+    name: "gatsby",
+    description:
+      "Gatsby is a static site generator. These starters are static sites built with Gatsby.",
+    match: project => includesAny(project.dependencies, ["gatsby"])
+  },
+  {
     name: "babel",
     description: "Babel transpiles JavaScript.",
     match: project => includesAny(project.dependencies, ["babel", "babel-core"])
