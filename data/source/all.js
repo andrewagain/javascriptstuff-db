@@ -1,5 +1,6 @@
 module.exports = [
   require("./interesting"),
+  require("./linters"),
   require("./loggers"),
   require("./react-components"),
   require("./react-example-apps"),

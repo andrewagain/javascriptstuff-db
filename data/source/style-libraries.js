@@ -23,6 +23,7 @@ module.exports = {
   ],
 
   projects: [
+    { url: "https://github.com/Khan/aphrodite" },
     { url: "https://github.com/adamterlson/cairn" },
     { url: "https://github.com/blakeembrey/react-free-style" },
     { url: "https://github.com/casesandberg/reactcss" },
@@ -53,6 +54,7 @@ module.exports = {
     {
       url: "https://github.com/unicorn-standard/react-pacomo",
       tags: ["react"]
-    }
+    },
+    { url: "https://github.com/rtsao/styletron" }
   ]
 };

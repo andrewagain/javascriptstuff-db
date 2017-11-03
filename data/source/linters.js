@@ -14,6 +14,9 @@ module.exports = {
 
   projects: [
     { url: "https://github.com/beautify-web/js-beautify", tags: ["html"] },
-    { url: "https://github.com/prettier/prettier" }
+    { url: "https://github.com/prettier/prettier" },
+    { url: "https://github.com/CSSLint/csslint" },
+    { url: "https://github.com/csscomb/csscomb.js" },
+    { url: "https://github.com/standard/standard" }
   ]
 };
