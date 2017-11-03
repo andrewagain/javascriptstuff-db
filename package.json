@@ -1,7 +1,7 @@
 {
   "name": "javascriptstuff-db-generator",
   "description": "Generator for the JavaScript stuff database.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Andrew Farmer <ahfarmer@gmail.com>",
   "homepage": "https://www.javascriptstuff.com",
   "devDependencies": {
@@ -40,6 +40,9 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
