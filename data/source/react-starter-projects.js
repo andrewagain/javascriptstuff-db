@@ -216,6 +216,7 @@ module.exports = {
     { url: "https://github.com/xpepermint/isomorphic-react-relay-boilerplate" },
     { url: "https://github.com/YUzhva/create-react-redux-app" },
     { url: "https://github.com/zeit/next.js" },
+    { url: "https://github.com/nozzle/react-static" },
     { url: "https://github.com/zxbodya/reactive-widgets" },
     { url: "https://github.com/gaearon/react-transform-boilerplate" },
 
