@@ -28,20 +28,20 @@ module.exports = {
     { url: "https://github.com/esausilva/react-starter-boilerplate-hmr" },
     {
       url: "https://github.com/a-tarasyuk/rr-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/acdlite/flummox-isomorphic-demo" },
     { url: "https://github.com/adampash/react-native-hot-redux-starter" },
     { url: "https://github.com/akopichin/webpack-react-template" },
     {
       url: "https://github.com/alicoding/react-webpack-babel",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/amaurymartiny/react-redux-auth0-kit" },
     { url: "https://github.com/andy9775/YARSP" },
     {
       url: "https://github.com/anorudes/redux-easy-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/atSistemas/react-base" },
     { url: "https://github.com/Atyantik/react-pwa" },
@@ -61,7 +61,7 @@ module.exports = {
     { url: "https://github.com/cloudmu/react-redux-starter-kit" },
     {
       url:
-        "https://github.com/codefoundries/isomorphic-material-relay-starter-kit"
+        "https://github.com/codefoundries/isomorphic-material-relay-starter-kit",
     },
     { url: "https://github.com/codefoundries/UniversalRelayBoilerplate" },
     { url: "https://github.com/coryhouse/react-flux-starter-kit" },
@@ -71,7 +71,7 @@ module.exports = {
     { url: "https://github.com/davezuko/react-redux-starter-kit" },
     {
       url:
-        "https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate"
+        "https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate",
     },
     { url: "https://github.com/developer239/workbox-webpack-react" },
     { url: "https://github.com/diegohaz/arc" },
@@ -90,7 +90,7 @@ module.exports = {
     { url: "https://github.com/gaearon/react-hot-boilerplate" },
     {
       url: "https://github.com/gilamran/fullstack-typescript",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/goshakkk/no-bs-react-webpack-starter" },
     { url: "https://github.com/granmoe/react-redux-saga-boilerplate" },
@@ -98,7 +98,7 @@ module.exports = {
     { url: "https://github.com/iam4x/isomorphic-flux-boilerplate" },
     {
       url: "https://github.com/iroy2000/react-redux-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/irvinebroque/isomorphic-hot-loader" },
     { url: "https://github.com/ivanzotov/react-native-example" },
@@ -112,12 +112,12 @@ module.exports = {
     { url: "https://github.com/jkup/react-app-starter" },
     {
       url:
-        "https://github.com/jquintozamora/react-es6-webpack-minimal-starter-template"
+        "https://github.com/jquintozamora/react-es6-webpack-minimal-starter-template",
     },
     {
       url:
         "https://github.com/jquintozamora/react-typescript-webpack2-cssModules-postCSS",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/khalilgharbaoui/flux-boilerplate" },
     { url: "https://github.com/kireerik/razzle-material-ui-styled-example" },
@@ -125,7 +125,7 @@ module.exports = {
     { url: "https://github.com/krasimir/react-webpack-starter" },
     {
       url: "https://github.com/kriasoft/aspnet-starter-kit",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/kriasoft/babel-starter-kit" },
     { url: "https://github.com/kriasoft/react-starter-kit" },
@@ -139,7 +139,7 @@ module.exports = {
     { url: "https://github.com/madeagency/reactivity" },
     { url: "https://github.com/MadeInHaus/react-flux-gulp-starter" },
     {
-      url: "https://github.com/madnight/react-webpack-babel-karma-boilerplate"
+      url: "https://github.com/madnight/react-webpack-babel-karma-boilerplate",
     },
     { url: "https://github.com/mcnamee/react-native-starter-app" },
     { url: "https://github.com/mhart/simple-relay-starter" },
@@ -155,7 +155,7 @@ module.exports = {
     { url: "https://github.com/obetomuniz/reeakt" },
     {
       url: "https://github.com/olebedev/go-starter-kit",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/oscarmorrison/react-webpack-starter" },
     { url: "https://github.com/osxi/react-pouch-redux-starter-kit" },
@@ -163,13 +163,13 @@ module.exports = {
     { url: "https://github.com/peppesilletti/webpack-project" },
     {
       url: "https://github.com/peter-mouland/react-lego",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/phenomic/phenomic" },
     { url: "https://github.com/pheuter/essential-react" },
     {
       url: "https://github.com/piotrwitek/react-redux-typescript-starter-kit",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/przeor/react-router-flux-starter-kit" },
     { url: "https://github.com/radenkovic/react-vanilla" },
@@ -177,7 +177,7 @@ module.exports = {
     { url: "https://github.com/rauschma/react-starter-project" },
     {
       url: "https://github.com/rbartoli/react-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/react-boilerplate/react-boilerplate" },
     { url: "https://github.com/reactGo/reactGo", tags: ["css modules"] },
@@ -189,12 +189,12 @@ module.exports = {
     { url: "https://github.com/samblake/react-native-typescript-starter-2017" },
     {
       url: "https://github.com/scalable-react/scalable-react-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/skolmer/react-hot-boilerplate-vscode" },
     { url: "https://github.com/sotnikov-link/ts-react-boilerplate" },
     {
-      url: "https://github.com/stample/gulp-browserify-react-phonegap-starter"
+      url: "https://github.com/stample/gulp-browserify-react-phonegap-starter",
     },
     { url: "https://github.com/start-react/native-starter-kit" },
     { url: "https://github.com/stoikerty/dev-toolkit", tags: ["css modules"] },
@@ -213,7 +213,7 @@ module.exports = {
     { url: "https://github.com/vitalybe/ReactNativeUniversal" },
     {
       url: "https://github.com/vodkabears/another-one-fucking-boilerplate",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/VulcanJS/Vulcan" },
     { url: "https://github.com/vutran/spa-starter-kit" },
@@ -222,11 +222,11 @@ module.exports = {
     { url: "https://github.com/webpack/react-starter" },
     {
       url: "https://github.com/WeLikeGraphQL/universal-react-apollo-example",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     {
       url: "https://github.com/wellyshen/react-cool-starter",
-      tags: ["css modules"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/wwsun/starter-node-react" },
     { url: "https://github.com/xkawi/react-universal-saga" },
@@ -239,27 +239,27 @@ module.exports = {
 
     // package.json elsewhere, or needs tag adjustments
     {
-      url: "https://github.com/facebookincubator/create-react-app"
+      url: "https://github.com/facebookincubator/create-react-app",
     },
     {
       url: "https://github.com/ahfarmer/minimal-react-starter",
-      tags: ["HMR"]
+      tags: ["HMR"],
     },
     {
       url: "https://github.com/FredericHeem/starhackit",
-      packagePaths: ["client/package.json", "server/package.json"]
+      packagePaths: ["client/package.json", "server/package.json"],
     },
     {
       url: "https://github.com/kjda/ReactJs-Phonegap",
-      packagePaths: ["app/package.json", "server/package.json"]
+      packagePaths: ["app/package.json", "server/package.json"],
     },
     {
       url: "https://github.com/geowarin/boot-react",
-      packagePaths: ["frontend/package.json"]
+      packagePaths: ["frontend/package.json"],
     },
     {
       url: "https://github.com/pauldotknopf/react-aspnet-boilerplate",
-      packagePaths: ["src/ReactBoilerplate/package.json"]
+      packagePaths: ["src/ReactBoilerplate/package.json"],
     },
     {
       url: "https://github.com/NYTimes/kyt",
@@ -272,12 +272,12 @@ module.exports = {
         "packages/kyt-starter-static/package.json",
         "packages/kyt-starter-universal/package.json",
         "packages/kyt-utils/package.json",
-        "packages/stylelint-config-kyt/package.json"
-      ]
+        "packages/stylelint-config-kyt/package.json",
+      ],
     },
     {
       url: "https://github.com/agrcrobles/react-native-web-boilerplate",
-      packagePaths: ["package.json", "electron/package.json"]
-    }
-  ]
+      packagePaths: ["package.json", "electron/package.json"],
+    },
+  ],
 };

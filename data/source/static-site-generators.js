@@ -8,8 +8,8 @@ module.exports = {
     {
       name: "react",
       description:
-        "The generator either uses React internally or encourages and supports you using it in combination with the generator."
-    }
+        "The generator either uses React internally or encourages and supports you using it in combination with the generator.",
+    },
   ],
 
   projects: [
@@ -27,12 +27,12 @@ module.exports = {
     { url: "https://github.com/lord/slate", tags: ["documentation"] },
     {
       url:
-        "https://github.com/markdalgleish/static-site-generator-webpack-plugin"
+        "https://github.com/markdalgleish/static-site-generator-webpack-plugin",
     },
     { url: "https://github.com/GitbookIO/gitbook" },
     { url: "https://github.com/elmasse/nextein", tags: ["react"] },
     { url: "https://github.com/flatiron/blacksmith" },
     { url: "https://github.com/eduardoboucas/staticman" },
-    { url: "https://github.com/vigetlabs/blendid" }
-  ]
+    { url: "https://github.com/vigetlabs/blendid" },
+  ],
 };

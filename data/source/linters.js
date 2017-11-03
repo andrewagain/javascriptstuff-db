@@ -8,8 +8,8 @@ module.exports = {
   tags: [
     {
       name: "html",
-      description: "Formats/beautifies HTML."
-    }
+      description: "Formats/beautifies HTML.",
+    },
   ],
 
   projects: [
@@ -18,6 +18,6 @@ module.exports = {
     { url: "https://github.com/CSSLint/csslint" },
     { url: "https://github.com/csscomb/csscomb.js" },
     { url: "https://github.com/standard/standard" },
-    { url: "https://github.com/douglascrockford/JSLint" }
-  ]
+    { url: "https://github.com/douglascrockford/JSLint" },
+  ],
 };

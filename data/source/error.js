@@ -17,7 +17,7 @@ module.exports = {
     { url: "https://github.com/Merri/react-tabbordion", tags: ["set"] },
     {
       url: "https://github.com/mapbox/react-colorpickr",
-      tags: ["color", "picker"]
+      tags: ["color", "picker"],
     },
 
     // Example apps
@@ -27,7 +27,7 @@ module.exports = {
     // Haven't looked into these yet
     {
       url: "https://github.com/fdecampredon/react-rxjs-todomvc",
-      tags: ["todo"]
+      tags: ["todo"],
     },
     { url: "https://github.com/javierbyte/clashjs", tags: ["game"] },
     { url: "https://github.com/rmosolgo/graphql-ruby-demo" },
@@ -41,6 +41,6 @@ module.exports = {
     { url: "https://github.com/AdaptiveConsulting/ReactiveTraderCloud" },
     { url: "https://github.com/ryanatkn/react-mobx-typescript-experiments" },
     { url: "https://github.com/tsurupin/portfolio" },
-    { url: "https://github.com/cjlarose/de-jong", tags: ["educational"] }
-  ]
+    { url: "https://github.com/cjlarose/de-jong", tags: ["educational"] },
+  ],
 };

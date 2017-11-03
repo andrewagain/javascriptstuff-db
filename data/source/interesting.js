@@ -110,6 +110,6 @@ module.exports = {
     { url: "https://github.com/tastejs/todomvc" },
 
     // maybe there should be a vue starter projects list
-    { url: "https://github.com/SimulatedGREG/electron-vue" }
-  ]
+    { url: "https://github.com/SimulatedGREG/electron-vue" },
+  ],
 };

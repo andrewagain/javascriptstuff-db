@@ -8,8 +8,8 @@ module.exports = {
   tags: [
     {
       name: "redux",
-      description: "The tutorial introduces Redux in combination with React."
-    }
+      description: "The tutorial introduces Redux in combination with React.",
+    },
   ],
 
   articles: [
@@ -19,7 +19,7 @@ module.exports = {
       author: "Petr Tichy",
       date: "2017-09-11",
       description:
-        "React tutorial for complete beginners. Learn the basic or React.js by following this simple guide for React newbies."
+        "React tutorial for complete beginners. Learn the basic or React.js by following this simple guide for React newbies.",
     },
     {
       title: "Learning React.js: Getting Started and Concepts",
@@ -30,7 +30,7 @@ module.exports = {
       description:
         "The first installment in a new series of tutorials, Learning React, that will focus on becoming proficient and effective with Facebook&'s React library",
       notes:
-        "This article was published way back in 2014, but the author has kept it up-to-date. It has been updated for react 16."
+        "This article was published way back in 2014, but the author has kept it up-to-date. It has been updated for react 16.",
     },
     {
       title: "Build with React Tutorial",
@@ -38,7 +38,7 @@ module.exports = {
       author: "buildwithreact",
       date: "2016-9-13",
       description:
-        "Learn ReactJS with this simple and interactive tutorial. Topics include JSX, components, events, state, and a quick look under the hood."
+        "Learn ReactJS with this simple and interactive tutorial. Topics include JSX, components, events, state, and a quick look under the hood.",
     },
     {
       title: "Raw React",
@@ -46,7 +46,7 @@ module.exports = {
       author: "James K Nelson",
       date: "2016-4-24",
       description:
-        "Learn React from the ground up, without worrying about JSX, Flux, ES6, Webpack, etc."
+        "Learn React from the ground up, without worrying about JSX, Flux, ES6, Webpack, etc.",
     },
     {
       title: "Official React Tutorial",
@@ -54,7 +54,7 @@ module.exports = {
       author: "Facebook",
       date: "2017-10-27",
       description:
-        "The React tutorial included in the official React documentation."
+        "The React tutorial included in the official React documentation.",
     },
     {
       title: "Comprehensive React.js Guide",
@@ -62,7 +62,7 @@ module.exports = {
         "http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/",
       author: "Tyler McGinnis",
       date: "2015-1-12",
-      description: "Guide for learning to build apps with React."
+      description: "Guide for learning to build apps with React.",
     },
     {
       title: "Full-Stack Redux Tutorial",
@@ -71,7 +71,7 @@ module.exports = {
       date: "2016-2-24",
       description:
         "A Comprehensive Guide to Test-First Development with Redux, React, and Immutable",
-      tags: ["redux"]
-    }
-  ]
+      tags: ["redux"],
+    },
+  ],
 };

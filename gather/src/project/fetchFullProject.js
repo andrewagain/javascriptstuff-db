@@ -19,7 +19,7 @@ function createFullProject(
     githubClient.repos.get(
       {
         owner: sourceProject.owner,
-        repo: sourceProject.repo
+        repo: sourceProject.repo,
       },
       callback
     );
@@ -29,7 +29,7 @@ function createFullProject(
     githubClient.repos.getReadme(
       {
         owner: sourceProject.owner,
-        repo: sourceProject.repo
+        repo: sourceProject.repo,
       },
       (error, response) => {
         if (error || !response || !response.data || !response.data.content) {

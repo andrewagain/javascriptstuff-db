@@ -6,7 +6,12 @@ module.exports = {
   },
   plugins: ["prettier"],
   rules: {
-    "prettier/prettier": ["error"],
+    "prettier/prettier": [
+      "error",
+      {
+        trailingComma: "es5",
+      },
+    ],
     "global-require": 0,
     "prefer-destructuring": 0,
     "no-console": 0,

@@ -6,19 +6,19 @@ module.exports = {
   aka: [
     "lodash alternatives",
     "jquery alternatives",
-    "underscore alternatives"
+    "underscore alternatives",
   ],
 
   tags: [
     {
       name: "ajax",
-      description: "Includes methods for sending HTTP requests."
-    }
+      description: "Includes methods for sending HTTP requests.",
+    },
   ],
 
   projects: [
     { url: "https://github.com/lodash/lodash" },
     { url: "https://github.com/jashkenas/underscore" },
-    { url: "https://github.com/jquery/jquery", tags: ["ajax"] }
-  ]
+    { url: "https://github.com/jquery/jquery", tags: ["ajax"] },
+  ],
 };

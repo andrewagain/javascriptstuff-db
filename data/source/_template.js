@@ -12,9 +12,9 @@ module.exports = {
       description: ".",
       // If the tag can be matched automatically, include a match function.
       // Otherwise set the tag in each matching project's 'tags' property.
-      match: project => includesAny(project.dependencies, [""])
-    }
+      match: project => includesAny(project.dependencies, [""]),
+    },
   ],
 
-  projects: [{ url: "" }]
+  projects: [{ url: "" }],
 };

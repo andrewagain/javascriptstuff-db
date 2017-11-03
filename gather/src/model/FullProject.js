@@ -59,7 +59,7 @@ module.exports = class FullProject {
       tags: this.tags,
       lastStarCount: this.starCount,
       lastUpdatedAt: this.updatedAt,
-      avatarUrl: this.avatarUrl
+      avatarUrl: this.avatarUrl,
     };
   }
 
@@ -72,7 +72,7 @@ module.exports = class FullProject {
       sourceProject: this.sourceProject,
       packageJson: this.packageJson,
       githubData: this.githubData,
-      readme: this.readme
+      readme: this.readme,
     };
   }
 

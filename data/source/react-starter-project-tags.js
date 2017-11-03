@@ -7,19 +7,20 @@ module.exports = [
     name: "gatsby",
     description:
       "Gatsby is a static site generator. These starters are static sites built with Gatsby.",
-    match: project => includesAny(project.dependencies, ["gatsby"])
+    match: project => includesAny(project.dependencies, ["gatsby"]),
   },
   {
     name: "babel",
     description: "Babel transpiles JavaScript.",
-    match: project => includesAny(project.dependencies, ["babel", "babel-core"])
+    match: project =>
+      includesAny(project.dependencies, ["babel", "babel-core"]),
   },
   {
     name: "coffeescript",
     aka: ["coffee", "coffee script"],
     description: "CoffeeScript is a language that compiles into JavaScript",
     match: project =>
-      includesAny(project.dependencies, ["coffee-loader", "coffee-script"])
+      includesAny(project.dependencies, ["coffee-loader", "coffee-script"]),
   },
   {
     name: "css modules",
@@ -30,7 +31,7 @@ module.exports = [
       if (
         includesAny(project.dependencies, [
           "css-modules-require-hook",
-          "css-modules"
+          "css-modules",
         ])
       ) {
         return true;
@@ -40,7 +41,7 @@ module.exports = [
       // Add the tag manually if necessary.
 
       return false;
-    }
+    },
   },
   {
     name: "es6",
@@ -63,9 +64,9 @@ module.exports = [
         "babel-preset-react",
         "babel-preset-es2015",
         "babelify",
-        "babel-jest"
+        "babel-jest",
       ]);
-    }
+    },
   },
   {
     name: "flux",
@@ -80,8 +81,8 @@ module.exports = [
         "alt.js",
         "flummox",
         "martyjs",
-        "miniflux"
-      ])
+        "miniflux",
+      ]),
   },
   {
     name: "hmr",
@@ -100,16 +101,16 @@ module.exports = [
         "react-hot-loader",
         "react-transform-hmr",
         "webpack-hot-middleware",
-        "livereactload" // hot reload for browserify
+        "livereactload", // hot reload for browserify
       ]);
-    }
+    },
   },
   {
     name: "inline style",
     aka: ["inline CSS"],
     description:
       "CSS is added with inline style properties rather than in a separate stylesheet.",
-    match: project => includesAny(project.dependencies, ["react-inline-css"])
+    match: project => includesAny(project.dependencies, ["react-inline-css"]),
   },
   {
     name: "linter",
@@ -123,8 +124,8 @@ module.exports = [
         "jscs",
         "eslint-plugin-react",
         "gulp-eslint",
-        "babel-eslint"
-      ])
+        "babel-eslint",
+      ]),
   },
   {
     name: "live reload",
@@ -132,28 +133,28 @@ module.exports = [
     description:
       "Automatic browser refresh whenever the developer makes code changes in the text editor.",
     match: project =>
-      includesAny(project.dependencies, ["BrowserSync", "piping"])
+      includesAny(project.dependencies, ["BrowserSync", "piping"]),
   },
   {
     name: "minimal",
     aka: ["simple"],
     description:
       "A project is considered 'minimal' if it has fewer than 20 dependencies.",
-    match: project => project.dependencies.length < 20
+    match: project => project.dependencies.length < 20,
   },
   {
     name: "rails",
-    match: project => project.dependencies.includes("react-rails")
+    match: project => project.dependencies.includes("react-rails"),
   },
   {
     name: "native",
-    match: project => project.dependencies.includes("react-native")
+    match: project => project.dependencies.includes("react-native"),
   },
   {
     name: "router",
     aka: ["routing"],
     description: "Uses react-router to keep the UI in sync with the URL.",
-    match: project => project.dependencies.includes("react-router")
+    match: project => project.dependencies.includes("react-router"),
   },
   {
     name: "tests",
@@ -165,14 +166,14 @@ module.exports = [
         "jest-cli",
         "mocha",
         "jasmine",
-        "karma"
-      ])
+        "karma",
+      ]),
   },
   {
     name: "typescript",
     description:
       "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
-    match: project => project.dependencies.includes("typescript")
+    match: project => project.dependencies.includes("typescript"),
   },
   {
     name: "universal",
@@ -191,7 +192,7 @@ module.exports = [
         description.match(/isomorphic/i) ||
         description.match(/universal/i)
       );
-    }
+    },
   },
   {
     name: "webpack 2",
@@ -214,12 +215,12 @@ module.exports = [
         return false;
       }
       return webpackMajorVersion === "2";
-    }
+    },
   },
   {
     name: "flow",
     aka: "flowtype",
     description: "Static type checker by Facebook",
-    match: project => includesAny(project.dependencies, ["babel-preset-flow"])
-  }
+    match: project => includesAny(project.dependencies, ["babel-preset-flow"]),
+  },
 ];

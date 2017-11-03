@@ -8,5 +8,5 @@ module.exports = {
 
   projects: [
     // mocha, chai, that airbnb one, storybook
-  ]
+  ],
 };

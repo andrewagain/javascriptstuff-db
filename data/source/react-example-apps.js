@@ -10,8 +10,8 @@ module.exports = {
       name: "educational",
       aka: ["learning"],
       description:
-        "The project helps the user (not just the developer) to learn something."
-    }
+        "The project helps the user (not just the developer) to learn something.",
+    },
   ],
 
   projects: [
@@ -25,7 +25,7 @@ module.exports = {
     { url: "https://github.com/hadijaveed/All-Convertors" },
     {
       url: "https://github.com/skidding/illustrated-algorithms",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/SKempin/reactjs-tmdb-app" },
     { url: "https://github.com/devtools-html/debugger.html" },
@@ -33,7 +33,7 @@ module.exports = {
     { url: "https://github.com/chvin/react-tetris", tags: ["game"] },
     {
       url: "https://github.com/sgwilym/relay-visual-learners",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/suddi/suddi.github.io" },
     { url: "https://github.com/FormidableLabs/react-music" },
@@ -55,7 +55,7 @@ module.exports = {
     { url: "https://github.com/mkfreeman/central-limit" },
     {
       url: "https://github.com/Haseeb-Qureshi/n-queens-visualizer",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/pearofducks/foodprocessor" },
     { url: "https://github.com/cosmicjs/cosmicapp-voting-app" },
@@ -64,12 +64,12 @@ module.exports = {
     { url: "https://github.com/devnews/web" },
     {
       url: "https://github.com/pcottle/learnGitBranching",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/gshakir/S3-Infrequent-Access-Calculator" },
     {
       url: "https://github.com/fullstackreact/react-yelp-clone",
-      tags: ["clone"]
+      tags: ["clone"],
     },
     { url: "https://github.com/cogentlabs/cloud-vision-explorer" },
     { url: "https://github.com/apollographql/GitHunt-React" },
@@ -78,13 +78,13 @@ module.exports = {
     { url: "https://github.com/project-bobon/bobonroastprofile" },
     {
       url: "https://github.com/browniefed/react-native-animation-book",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/ryanatkn/ear-sharpener", tags: ["game"] },
     { url: "https://github.com/sotojuan/saga-login-flow" },
     {
       url: "https://github.com/JoseGonzalez321/react-mega-man-robot-masters",
-      tags: ["game"]
+      tags: ["game"],
     },
     { url: "https://github.com/paulhoughton/mortgage-mobx" },
     { url: "https://github.com/paulhoughton/fx" },
@@ -111,7 +111,7 @@ module.exports = {
     { url: "https://github.com/Swizec/react-particles-experiment" },
     {
       url: "https://github.com/jshjohnson/NumberRush",
-      tags: ["game", "educational"]
+      tags: ["game", "educational"],
     },
     { url: "https://github.com/hoppula/refire-forum" },
     { url: "https://github.com/bu-ist/housing-available-units" },
@@ -150,7 +150,7 @@ module.exports = {
     { url: "https://github.com/sonnylazuardi/react-komik" },
     {
       url:
-        "https://github.com/wclittle/Rails5-ActionCable-Redux-React-ChatAppExample"
+        "https://github.com/wclittle/Rails5-ActionCable-Redux-React-ChatAppExample",
     },
     { url: "https://github.com/rexxars/markdown-editor" },
     { url: "https://github.com/ddewaele/web-gpio-react" },
@@ -187,7 +187,7 @@ module.exports = {
     { url: "https://github.com/Radivarig/react-speed-reader" },
     {
       url: "https://github.com/kadira-samples/react-graphql-todos",
-      tags: ["todo"]
+      tags: ["todo"],
     },
     { url: "https://github.com/lahmatiy/component-inspector" },
     { url: "https://github.com/fraserxu/soundredux-native" },
@@ -203,13 +203,13 @@ module.exports = {
     { url: "https://github.com/pwambach/fat-file-finder" },
     {
       url: "https://github.com/raineroviir/react-redux-socketio-chat",
-      tags: ["chat"]
+      tags: ["chat"],
     },
     { url: "https://github.com/romseguy/d3-state-visualizer" },
     { url: "https://github.com/srtucker22/glipchat", tags: ["chat"] },
     {
       url: "https://github.com/gokulkrishh/React-hacker-news",
-      tags: ["clone"]
+      tags: ["clone"],
     },
     { url: "https://github.com/cdglabs/apparatus" },
     { url: "https://github.com/circuitsim/circuit-simulator" },
@@ -237,7 +237,7 @@ module.exports = {
     { url: "https://github.com/whoisandy/yoda" },
     {
       url: "https://github.com/FormidableLabs/es6-interactive-guide",
-      tags: ["educational"]
+      tags: ["educational"],
     },
     { url: "https://github.com/pbeshai/linked-highlighting-react-d3-reflux" },
     { url: "https://github.com/christopherdro/react-native-rss-reader" },
@@ -245,16 +245,16 @@ module.exports = {
     { url: "https://github.com/asamiller/den" },
     {
       url: "https://github.com/iSimar/HackerNews-React-Native",
-      tags: ["clone"]
+      tags: ["clone"],
     },
     { url: "https://github.com/gre/bezier-easing-editor" },
     {
       url: "https://github.com/joemaddalone/react-native-todo",
-      tags: ["todo"]
+      tags: ["todo"],
     },
     { url: "https://github.com/gpbl/isomorphic500" },
     { url: "https://github.com/bradoyler/newswatch-react-native" },
     { url: "https://github.com/ccoenraets/belgian-beer-explorer" },
-    { url: "https://github.com/jhewlett/react-reversi", tags: ["game"] }
-  ]
+    { url: "https://github.com/jhewlett/react-reversi", tags: ["game"] },
+  ],
 };

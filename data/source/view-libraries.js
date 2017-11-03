@@ -12,13 +12,13 @@ module.exports = {
     {
       url: "https://github.com/developit/preact",
       notes:
-        "Smaller library than React which strives for (almost) feature parity"
+        "Smaller library than React which strives for (almost) feature parity",
     },
     { url: "https://github.com/angular/angular" },
     { url: "https://github.com/MithrilJS/mithril.js" },
     { url: "https://github.com/elm-lang/core", packagePaths: [] },
     { url: "https://github.com/facebook/react-native" },
     { url: "https://github.com/OnsenUI/OnsenUI" },
-    { url: "https://github.com/emberjs/ember.js" }
-  ]
+    { url: "https://github.com/emberjs/ember.js" },
+  ],
 };

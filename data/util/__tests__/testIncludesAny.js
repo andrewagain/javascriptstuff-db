@@ -18,7 +18,7 @@ describe("includesAny", () => {
           "alt.js",
           "flummox",
           "martyjs",
-          "miniflux"
+          "miniflux",
         ]
       )
     ).to.be.true;

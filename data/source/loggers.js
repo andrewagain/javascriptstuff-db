@@ -10,6 +10,6 @@ module.exports = {
   projects: [
     { url: "https://github.com/guigrpa/storyboard" },
     { url: "https://github.com/mohebifar/konsul" },
-    { url: "https://github.com/visionmedia/debug" }
-  ]
+    { url: "https://github.com/visionmedia/debug" },
+  ],
 };

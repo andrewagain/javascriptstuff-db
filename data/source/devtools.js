@@ -15,6 +15,6 @@ module.exports = {
     { url: "https://github.com/gaearon/redux-devtools" },
     { url: "https://github.com/facebook/react-devtools", tags: ["react"] },
     { url: "https://github.com/vuejs/vue-devtools" },
-    { url: "https://github.com/kdzwinel/betwixt" }
-  ]
+    { url: "https://github.com/kdzwinel/betwixt" },
+  ],
 };

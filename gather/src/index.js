@@ -10,12 +10,12 @@ dotenv.config();
 
 const githubClient = new GithubApi({
   headers: {
-    "user-agent": process.env.GITHUB_USER_AGENT
-  }
+    "user-agent": process.env.GITHUB_USER_AGENT,
+  },
 });
 githubClient.authenticate({
   type: `token`,
-  token: process.env.GITHUB_TOKEN
+  token: process.env.GITHUB_TOKEN,
 });
 
 function run() {

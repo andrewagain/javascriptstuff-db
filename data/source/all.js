@@ -15,5 +15,5 @@ module.exports = [
   require("./style-libraries"),
   require("./test-utilities"),
   require("./utility-libraries"),
-  require("./view-libraries")
+  require("./view-libraries"),
 ];

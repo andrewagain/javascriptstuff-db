@@ -9,18 +9,18 @@ module.exports = {
     {
       name: "css processor",
       description:
-        "Converts another language into CSS or modifies/improves CSS."
+        "Converts another language into CSS or modifies/improves CSS.",
     },
     {
       name: "inline",
       description:
-        "Works by setting styles in JavaScript rather than in a separate style file."
+        "Works by setting styles in JavaScript rather than in a separate style file.",
     },
     {
       name: "react",
       description:
-        "Works only with React or mentions specifically that it works well with React."
-    }
+        "Works only with React or mentions specifically that it works well with React.",
+    },
   ],
 
   projects: [
@@ -29,7 +29,7 @@ module.exports = {
     { url: "https://github.com/blakeembrey/react-free-style", tags: ["react"] },
     {
       url: "https://github.com/casesandberg/reactcss",
-      tags: ["inline", "react"]
+      tags: ["inline", "react"],
     },
     { url: "https://github.com/css-modules/css-modules", tags: ["react"] },
     { url: "https://github.com/FormidableLabs/radium", tags: ["inline"] },
@@ -47,14 +47,14 @@ module.exports = {
     { url: "https://github.com/segmentio/myth", tags: ["css processor"] },
     {
       url: "https://github.com/styled-components/styled-components",
-      tags: ["react"]
+      tags: ["react"],
     },
     { url: "https://github.com/stylus/stylus", tags: ["css processor"] },
     {
       url: "https://github.com/unicorn-standard/react-pacomo",
-      tags: ["react"]
+      tags: ["react"],
     },
     { url: "https://github.com/rtsao/styletron" },
-    { url: "https://github.com/zeit/styled-jsx", tags: ["react"] }
-  ]
+    { url: "https://github.com/zeit/styled-jsx", tags: ["react"] },
+  ],
 };
