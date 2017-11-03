@@ -18,7 +18,7 @@ module.exports = {
     { url: "https://github.com/jaxx2104/gatsby-starter-bootstrap" },
     { url: "https://github.com/dschau/gatsby-blog-starter-kit" },
     { url: "https://github.com/Vagr9K/gatsby-advanced-starter" },
-    { url: "https://github.com/100ideas/glitch-gatsby-starter-blog/" },
+    { url: "https://github.com/100ideas/glitch-gatsby-starter-blog" },
     { url: "https://github.com/alampros/gatsby-starter-grommet" },
     { url: "https://github.com/PrototypeInteractive/gatsby-react-boilerplate" },
     { url: "https://github.com/angeloocana/gatsby-starter-default-i18n" },

@@ -27,6 +27,7 @@ module.exports = function fetchAllFullProjects(
           fetchFullProjectCache(
             githubClient,
             sourceProject,
+            categoryData.fetchPackageJson,
             cache,
             index,
             sourceProjects.length

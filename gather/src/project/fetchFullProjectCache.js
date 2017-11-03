@@ -43,6 +43,7 @@ function checkCache(cache, cacheFilePath) {
 module.exports = function fetchFullProjectCache(
   githubClient,
   sourceProject,
+  shouldFetchPackageJson,
   cache,
   index = 0,
   total = 1
@@ -65,6 +66,7 @@ module.exports = function fetchFullProjectCache(
     return fetchFullProject(
       githubClient,
       sourceProject,
+      shouldFetchPackageJson,
       index,
       total
     ).then(fullProject => {

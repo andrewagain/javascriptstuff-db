@@ -5,8 +5,12 @@ const fetchPackageJsons = require(`./fetchPackageJsons`);
 const mergePackageJsons = require(`./mergePackageJsons`);
 const FullProject = require(`../model/FullProject`);
 
-function createFullProject(githubClient, sourceProject, outerCallback) {
-  // console.log('Growing repo:', repo.url);
+function createFullProject(
+  githubClient,
+  sourceProject,
+  shouldFetchPackageJson,
+  outerCallback
+) {
   if (!sourceProject || !sourceProject.url) {
     throw new Error(`sourceProject is null`);
   }
@@ -64,7 +68,7 @@ function createFullProject(githubClient, sourceProject, outerCallback) {
   }
 
   const tasks = [repoDataTask, readmeTask];
-  if (sourceProject.fetchPackageJson) {
+  if (shouldFetchPackageJson) {
     tasks.push(packageJsonTask);
   }
 
@@ -100,7 +104,14 @@ function createFullProject(githubClient, sourceProject, outerCallback) {
 /**
  * Attempt to fetch all the data for this project a few times before giving up.
  */
-function fetchRetry(githubClient, sourceProject, index, total, cb) {
+function fetchRetry(
+  githubClient,
+  sourceProject,
+  shouldFetchPackageJson,
+  index,
+  total,
+  cb
+) {
   const logPrefix = `${colors.gray(
     `[${index + 1}/${total}]`
   )} ${sourceProject.githubPath}`;
@@ -109,14 +120,22 @@ function fetchRetry(githubClient, sourceProject, index, total, cb) {
     3,
     taskCallback => {
       attemptNumber += 1;
-      createFullProject(githubClient, sourceProject, (error, value) => {
-        if (error) {
-          console.log(`${logPrefix} Attempt #${attemptNumber} failure:`, error);
-        } else {
-          console.log(logPrefix);
+      createFullProject(
+        githubClient,
+        sourceProject,
+        shouldFetchPackageJson,
+        (error, value) => {
+          if (error) {
+            console.log(
+              `${logPrefix} Attempt #${attemptNumber} failure:`,
+              error
+            );
+          } else {
+            console.log(logPrefix);
+          }
+          taskCallback(error, value);
         }
-        taskCallback(error, value);
-      });
+      );
     },
     cb
   );
@@ -129,6 +148,7 @@ function fetchRetry(githubClient, sourceProject, index, total, cb) {
  *
  * @param  {Object} githubClient
  * @param  {SourceProject} sourceProject
+ * @param  {Boolean} shouldFetchPackageJson
  * @param  {Number} index
  * @param  {Number} total
  * @return {Promise} resolves to a full project
@@ -136,6 +156,7 @@ function fetchRetry(githubClient, sourceProject, index, total, cb) {
 module.exports = function fetchFullProject(
   githubClient,
   sourceProject,
+  shouldFetchPackageJson,
   index = 0,
   total = 1
 ) {
@@ -143,6 +164,7 @@ module.exports = function fetchFullProject(
     fetchRetry(
       githubClient,
       sourceProject,
+      shouldFetchPackageJson,
       index,
       total,
       (error, fullProject) => {
