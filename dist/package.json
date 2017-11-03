@@ -1,7 +1,7 @@
 {
   "name": "javascriptstuff-db",
   "description": "Database of JavaScript project lists.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Andrew Farmer <ahfarmer@gmail.com>",
   "homepage": "https://www.javascriptstuff.com",
   "repository": {
