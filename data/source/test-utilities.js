@@ -7,6 +7,6 @@ module.exports = {
   tags: [],
 
   projects: [
-    // mocha, chai, that airbnb one, storybook
+    // mocha, chai, enzyme, storybook, styleguidist, cosmos
   ],
 };

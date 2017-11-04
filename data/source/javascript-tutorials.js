@@ -1,8 +1,6 @@
-const includesAny = require("../util/includesAny");
-
 module.exports = {
-  key: "",
-  name: "",
+  key: "javascript-tutorials",
+  name: "JavaScript Tutorials",
   description: "",
   aka: [""],
 
@@ -10,11 +8,11 @@ module.exports = {
     {
       name: "",
       description: ".",
-      // If the tag can be matched automatically, include a match function.
-      // Otherwise set the tag in each matching project's 'tags' property.
-      match: project => includesAny(project.dependencies, [""]),
     },
   ],
 
-  projects: [{ url: "" }],
+  projects: [
+    { url: "https://github.com/freeCodeCamp/freeCodeCamp" },
+    { url: "https://github.com/GitbookIO/javascript" },
+  ],
 };
