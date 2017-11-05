@@ -12,7 +12,7 @@ module.exports = {
     { url: "https://github.com/developit/preact" },
     { url: "https://github.com/angular/angular" },
     { url: "https://github.com/MithrilJS/mithril.js" },
-    { url: "https://github.com/elm-lang/core" },
+    { url: "https://github.com/elm-lang/elm-compiler" },
     { url: "https://github.com/facebook/react-native" },
     { url: "https://github.com/OnsenUI/OnsenUI" },
     { url: "https://github.com/emberjs/ember.js" },
