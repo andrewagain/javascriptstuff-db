@@ -1,5 +1,6 @@
 const fse = require(`fs-extra`);
 const path = require(`path`);
+const colors = require(`colors/safe`);
 
 const fetchAllCategories = require(`./fetchAllCategories`);
 const paths = require(`../util/paths`);
@@ -14,8 +15,9 @@ module.exports = function writeCategoryList(
     githubClient,
     categorySources,
     cache
-  ).then(categoryList => {
-    fse.outputJsonSync(outputPath, categoryList, { spaces: 2 });
-    return categoryList;
+  ).then(({ categories, errors }) => {
+    fse.outputJsonSync(outputPath, categories, { spaces: 2 });
+    console.log(colors.red(`${errors.length} errors`));
+    return categories;
   });
 };

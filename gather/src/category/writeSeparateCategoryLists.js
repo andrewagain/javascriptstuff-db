@@ -7,21 +7,24 @@ module.exports = function writeSeparateCategoryLists(
   categorySources,
   cache
 ) {
-  let promise = Promise.resolve([]);
+  let promise = Promise.resolve({ categories: [], errors: [] });
 
   categorySources.forEach(categorySource => {
     const index = categorySources.indexOf(categorySource);
-    promise = promise.then(outputList =>
+    promise = promise.then(infoSoFar =>
       fetchCategory(
         githubClient,
         categorySource,
         cache,
         index,
         categorySources.length
-      ).then(outputData => {
-        writeJsAndJson(paths.dataBuild, categorySource.key, outputData);
+      ).then(({ category, errors }) => {
+        writeJsAndJson(paths.dataBuild, categorySource.key, category);
 
-        return outputList.concat(outputData);
+        return {
+          categories: infoSoFar.categories.concat([category]),
+          errors: infoSoFar.errors.concat(errors),
+        };
       })
     );
   });

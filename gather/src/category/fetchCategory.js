@@ -20,6 +20,9 @@ function getCategoryTags(inputData) {
 
 /**
  * Given the source data for a category, fetches all the data for that category.
+ * Resolves to a promise like { category: {}, errors: [] }.
+ * If there was a problem fetching the data for one of the projects in this,
+ * category there will be an error in the error array.
  */
 module.exports = function fetchCategory(
   githubClient,
@@ -51,8 +54,11 @@ module.exports = function fetchCategory(
     githubClient,
     categoryData,
     cache
-  ).then(projects => {
+  ).then(({ projects, errors }) => {
     outputData.projects = projects.map(project => project.stableObject());
-    return outputData;
+    return {
+      category: outputData,
+      errors,
+    };
   });
 };

@@ -4,6 +4,10 @@ const includesAny = require("../util/includesAny");
 
 module.exports = [
   {
+    name: "dependency",
+    description: "Rather than copying the project, you add it as a dependency.",
+  },
+  {
     name: "gatsby",
     description:
       "Gatsby is a static site generator. These starters are static sites built with Gatsby.",
