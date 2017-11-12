@@ -5,7 +5,7 @@ module.exports = {
   name: "Bundlers",
   description:
     "These are tools that transform JS and CSS. They are typically highly configurable and pluggable.",
-  aka: ["JavaScript bundlers"],
+  aka: ["JavaScript bundlers", "packagers"],
 
   tags: [
     {
