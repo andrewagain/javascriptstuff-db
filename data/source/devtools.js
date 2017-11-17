@@ -18,13 +18,25 @@ module.exports = {
     { url: "https://github.com/typicode/husky" },
     { url: "https://github.com/okonet/lint-staged" },
     { url: "https://github.com/kitze/sizzy" },
-    { url: "https://github.com/gaearon/redux-devtools", tags: ["react"] },
-    { url: "https://github.com/facebook/react-devtools", tags: ["react"] },
-    { url: "https://github.com/vuejs/vue-devtools", tags: ["vue"] },
+    {
+      url: "https://github.com/gaearon/redux-devtools",
+      tags: ["react", "browser extension"],
+    },
+    {
+      url: "https://github.com/facebook/react-devtools",
+      tags: ["react", "browser extension"],
+    },
+    {
+      url: "https://github.com/vuejs/vue-devtools",
+      tags: ["vue", "browser extension"],
+    },
     { url: "https://github.com/kdzwinel/betwixt" },
     { url: "https://github.com/foreverjs/forever" },
     { url: "https://github.com/geuis/helium-css" },
     { url: "https://github.com/lerna/lerna" },
-    { url: "https://github.com/node-inspector/node-inspector" },
+    {
+      url: "https://github.com/node-inspector/node-inspector",
+      deprecated: true,
+    },
   ],
 };

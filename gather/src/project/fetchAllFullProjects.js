@@ -15,9 +15,9 @@ module.exports = function fetchAllFullProjects(
   if (!categoryData.projects) {
     return Promise.resolve({ projects: [], errors: [] });
   }
-  const sourceProjects = categoryData.projects.map(
-    url => new SourceProject(url)
-  );
+  const sourceProjects = categoryData.projects
+    .filter(x => !x.deprecated)
+    .map(url => new SourceProject(url));
 
   let promise = Promise.resolve({
     projects: [],
