@@ -38,5 +38,7 @@ module.exports = {
       url: "https://github.com/node-inspector/node-inspector",
       deprecated: true,
     },
+    { url: "https://github.com/zalmoxisus/remote-redux-devtools" },
+    { url: "https://github.com/infinitered/reactotron", tags: ["react"] },
   ],
 };

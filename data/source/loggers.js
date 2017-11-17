@@ -12,5 +12,6 @@ module.exports = {
     { url: "https://github.com/winstonjs/winston", tags: ["node-only"] },
     { url: "https://github.com/pinojs/pino", tags: ["node-only"] },
     { url: "https://github.com/baryon/tracer", tags: ["node-only"] },
+    { url: "https://github.com/evgenyrodionov/redux-logger" },
   ],
 };

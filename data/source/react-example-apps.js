@@ -4,7 +4,6 @@ module.exports = {
   fetchPackageJson: true,
   description: "Open-source apps that use React.",
   aka: ["react sample code", "react sample apps"],
-
   tags: [
     {
       name: "educational",
@@ -13,7 +12,6 @@ module.exports = {
         "The project helps the user (not just the developer) to learn something.",
     },
   ],
-
   projects: [
     { url: "https://github.com/ahfarmer/calculator", tags: ["clone"] },
     { url: "https://github.com/ahfarmer/emoji-search" },
@@ -256,5 +254,6 @@ module.exports = {
     { url: "https://github.com/bradoyler/newswatch-react-native" },
     { url: "https://github.com/ccoenraets/belgian-beer-explorer" },
     { url: "https://github.com/jhewlett/react-reversi", tags: ["game"] },
+    { url: "https://github.com/reddit/reddit-mobile" },
   ],
 };

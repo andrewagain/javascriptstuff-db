@@ -1,5 +1,3 @@
-const starterProjectTags = require("./react-starter-project-tags");
-
 module.exports = {
   key: "react-starter-projects",
   name: "React Starter Projects",
@@ -7,8 +5,105 @@ module.exports = {
   description:
     "Repositories that you can copy and modify to create your own React app.",
   aka: ["react boilerplates", "react starters", "react seeds"],
-  tags: starterProjectTags,
-
+  tags: [
+    {
+      name: "dependency",
+      description:
+        "Rather than copying the project, you add it as a dependency.",
+    },
+    {
+      name: "gatsby",
+      description:
+        "Gatsby is a static site generator. These starters are static sites built with Gatsby.",
+    },
+    { name: "babel", description: "Babel transpiles JavaScript." },
+    {
+      name: "coffeescript",
+      aka: ["coffee", "coffee script"],
+      description: "CoffeeScript is a language that compiles into JavaScript",
+    },
+    {
+      name: "css modules",
+      aka: ["css-modules"],
+      description:
+        "A CSS Module is a CSS file in which all class names and animation names are scoped locally by default.",
+    },
+    {
+      name: "es6",
+      aka: ["esnext", "es6+", "es7", "es2015", "es2016", "transpiled"],
+      description:
+        "Uses transpiling to convert JavaScript with the latest language features into well-supported (ES5) code",
+    },
+    {
+      name: "flux",
+      description:
+        "Something flux-like is used: Redux, Mobx, Flux, Reflux, etc.",
+    },
+    {
+      name: "hmr",
+      aka: ["hot", "hot module reloading"],
+      description:
+        "Supports updating JavaScript in the browser without a refresh.",
+    },
+    {
+      name: "inline style",
+      aka: ["inline CSS"],
+      description:
+        "CSS is added with inline style properties rather than in a separate stylesheet.",
+    },
+    {
+      name: "linter",
+      aka: ["lint"],
+      description:
+        "Linters are used to catch errors and coding style issues early.",
+    },
+    {
+      name: "live reload",
+      aka: ["auto reload", "browser reload"],
+      description:
+        "Automatic browser refresh whenever the developer makes code changes in the text editor.",
+    },
+    {
+      name: "minimal",
+      aka: ["simple"],
+      description:
+        "A project is considered 'minimal' if it has fewer than 20 dependencies.",
+    },
+    { name: "rails" },
+    { name: "native" },
+    {
+      name: "router",
+      aka: ["routing"],
+      description: "Uses react-router to keep the UI in sync with the URL.",
+    },
+    {
+      name: "tests",
+      aka: ["test", "unit test"],
+      description: "The project has same framework set up for testing.",
+    },
+    {
+      name: "typescript",
+      description:
+        "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+    },
+    {
+      name: "universal",
+      aka: ["isomorphic"],
+      description:
+        "Runs on both the client and the server, usually with Express or Koa.",
+    },
+    {
+      name: "webpack 2",
+      aka: ["webpack2"],
+      description:
+        "Webpack 2 was released in Jan 2017 and includes some breaking changes.",
+    },
+    {
+      name: "flow",
+      aka: "flowtype",
+      description: "Static type checker by Facebook",
+    },
+  ],
   projects: [
     {
       url: "https://github.com/gatsbyjs/gatsby",
@@ -286,16 +381,11 @@ module.exports = {
     { url: "https://github.com/nozzle/react-static" },
     { url: "https://github.com/zxbodya/reactive-widgets" },
     { url: "https://github.com/gaearon/react-transform-boilerplate" },
-
-    // package.json elsewhere, or needs tag adjustments
     {
       url: "https://github.com/facebookincubator/create-react-app",
       tags: ["dependency"],
     },
-    {
-      url: "https://github.com/ahfarmer/minimal-react-starter",
-      tags: ["HMR"],
-    },
+    { url: "https://github.com/ahfarmer/minimal-react-starter", tags: ["HMR"] },
     {
       url: "https://github.com/FredericHeem/starhackit",
       packagePaths: ["client/package.json", "server/package.json"],
@@ -330,5 +420,8 @@ module.exports = {
       url: "https://github.com/agrcrobles/react-native-web-boilerplate",
       packagePaths: ["package.json", "electron/package.json"],
     },
+    { url: "https://github.com/StephenGrider/ReduxSimpleStarter" },
+    { url: "https://github.com/alinz/example-react-native-redux" },
+    { url: "https://github.com/mirrorjs/mirror", tags: ["dependency"] },
   ],
 };

@@ -1,8 +1,10 @@
 module.exports = [
+  require("./awesome-lists"),
   require("./bundlers"),
   require("./devtools"),
   require("./email-tools"),
   require("./error"),
+  require("./state-managers"),
   require("./interesting"),
   require("./javascript-tutorials"),
   require("./linters"),
@@ -17,4 +19,5 @@ module.exports = [
   require("./test-utilities"),
   require("./utility-libraries"),
   require("./view-libraries"),
+  require("./learning-resources"),
 ];

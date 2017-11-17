@@ -16,5 +16,6 @@ module.exports = {
     { url: "https://github.com/domenic/chai-as-promised" },
     { url: "https://github.com/domenic/sinon-chai" },
     { url: "https://github.com/react-cosmos/react-cosmos", tags: ["react"] },
+    { url: "https://github.com/avajs/ava", tags: ["runner"] },
   ],
 };
