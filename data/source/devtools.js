@@ -26,5 +26,6 @@ module.exports = {
     { url: "https://github.com/kdzwinel/betwixt" },
     { url: "https://github.com/foreverjs/forever" },
     { url: "https://github.com/geuis/helium-css" },
+    { url: "https://github.com/lerna/lerna" },
   ],
 };
