@@ -7,6 +7,7 @@ module.exports = [
   require("./javascript-tutorials"),
   require("./linters"),
   require("./loggers"),
+  require("./networking-libraries"),
   require("./react-components"),
   require("./react-example-apps"),
   require("./react-starter-projects"),

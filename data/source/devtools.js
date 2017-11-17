@@ -4,9 +4,7 @@ module.exports = {
   description:
     "Tools used by developers while building JavaScript applications.",
   aka: ["dev tools"],
-
   tags: [],
-
   projects: [
     { url: "https://github.com/depcheck/depcheck" },
     {
@@ -27,5 +25,6 @@ module.exports = {
     { url: "https://github.com/foreverjs/forever" },
     { url: "https://github.com/geuis/helium-css" },
     { url: "https://github.com/lerna/lerna" },
+    { url: "https://github.com/node-inspector/node-inspector" },
   ],
 };
