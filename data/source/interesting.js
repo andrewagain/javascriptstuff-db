@@ -8,14 +8,6 @@ module.exports = {
   tags: [],
 
   projects: [
-    // Loads your components indiviually. Seems similar to storybook.
-    { url: "https://github.com/react-cosmos/react-cosmos" },
-
-    // Display your components with a variety of different props.
-    // Can be thought of as a testing tool, but also helps encourage isolation during development.
-    // Seems similar to react-cosmos.
-    { url: "https://github.com/storybooks/storybook" },
-
     // This is technically a React component but also similar to storybook and react-cosmos
     { url: "https://github.com/scup/atellier" },
 

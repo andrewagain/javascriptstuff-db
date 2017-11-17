@@ -3,10 +3,18 @@ module.exports = {
   name: "Test Utilities",
   description: "Tools that help you test your app.",
   aka: ["test frameworks", "test tools"],
-
   tags: [],
-
   projects: [
-    // mocha, chai, enzyme, storybook, styleguidist, cosmos
+    { url: "https://github.com/mochajs/mocha" },
+    { url: "https://github.com/airbnb/enzyme", tags: ["react"] },
+    { url: "https://github.com/nathanboktae/mocha-phantomjs" },
+    { url: "https://github.com/dareid/chakram" },
+    { url: "https://github.com/karma-runner/karma", tags: ["runner"] },
+    { url: "https://github.com/vue-play/vue-play", tags: ["vue"] },
+    { url: "https://github.com/storybooks/storybook", tags: ["react"] },
+    { url: "https://github.com/chaijs/chai" },
+    { url: "https://github.com/domenic/chai-as-promised" },
+    { url: "https://github.com/domenic/sinon-chai" },
+    { url: "https://github.com/react-cosmos/react-cosmos", tags: ["react"] },
   ],
 };
