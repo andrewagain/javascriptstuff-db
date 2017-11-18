@@ -4,8 +4,16 @@ module.exports = {
   description:
     "Tools used by developers while building JavaScript applications.",
   aka: ["dev tools"],
-  tags: [],
+  tags: [
+    {
+      name: "IDE",
+      description:
+        "Integrated development environment: a text editor specifically for software development.",
+    },
+  ],
   projects: [
+    { url: "https://github.com/reactide/reactide", tags: ["IDE", "react"] },
+    { url: "https://github.com/atom/atom", tags: ["IDE"] },
     { url: "https://github.com/depcheck/depcheck" },
     {
       url: "https://github.com/robertknight/webpack-bundle-size-analyzer",
