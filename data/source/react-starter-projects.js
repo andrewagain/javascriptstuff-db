@@ -1,3 +1,18 @@
+/**
+ * It's awesome when you add to this list.
+ *
+ * TO ADD YOUR REPO: Just add a line like this to the end:
+ *   { url: "https://github.com/<your repo>" }
+ * And you're done!
+ *
+ * ABOUT TAGS: Most of the them are automatic - you don't need to write them out.
+ * See react-starter-project-tags.js - the tags that have a 'match' function
+ * are added automatically.
+ *
+ * The automatic matchers ensure that tags are consistent and also saves some
+ * maintenance effort. One common tag that is not added automatically is
+ * 'css modules'.
+ */
 const starterProjectTags = require("./react-starter-project-tags");
 
 module.exports = {
