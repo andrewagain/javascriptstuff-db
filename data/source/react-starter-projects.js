@@ -425,8 +425,7 @@ module.exports = {
     { url: "https://github.com/mirrorjs/mirror", tags: ["dependency"] },
     {
       url: "https://github.com/lnked/react-starter",
-      tags: ["hmr", "PWA", "postcss", "babel", "css modules", "webpack3", "stylelint", "babel", "es6"],
-      packagePaths: ["package.json"],
+      tags: ["css modules"],
     },
   ],
 };
