@@ -330,5 +330,10 @@ module.exports = {
       url: "https://github.com/agrcrobles/react-native-web-boilerplate",
       packagePaths: ["package.json", "electron/package.json"],
     },
+    {
+      url: "https://github.com/lnked/react-starter",
+      tags: ["hmr", "PWA", "postcss", "babel", "css modules", "webpack3", "stylelint", "babel", "es6"],
+      packagePaths: ["package.json"],
+    },
   ],
 };
