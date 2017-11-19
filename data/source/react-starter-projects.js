@@ -340,7 +340,10 @@ module.exports = {
       packagePaths: ["package.json", "electron/package.json"],
     },
     { url: "https://github.com/StephenGrider/ReduxSimpleStarter" },
-    { url: "https://github.com/alinz/example-react-native-redux" },
+    {
+      url: "https://github.com/alinz/example-react-native-redux",
+      packagePaths: ["Counter/package.json", "Counters/package.json"],
+    },
     { url: "https://github.com/mirrorjs/mirror", tags: ["dependency"] },
     {
       url: "https://github.com/lnked/react-starter",
