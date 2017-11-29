@@ -349,5 +349,6 @@ module.exports = {
       url: "https://github.com/lnked/react-starter",
       tags: ["css modules"],
     },
+    { url: "https://github.com/karpusa/heroku-react-starter-kit" }
   ],
 };
