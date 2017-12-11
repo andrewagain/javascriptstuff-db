@@ -237,6 +237,7 @@ module.exports = {
     },
     { url: "https://github.com/przeor/react-router-flux-starter-kit" },
     { url: "https://github.com/radenkovic/react-vanilla" },
+    { url: "https://github.com/radenkovic/styled-react-boilerplate" },
     { url: "https://github.com/rangle/react-redux-example" },
     { url: "https://github.com/rauschma/react-starter-project" },
     {
