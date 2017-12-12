@@ -223,4 +223,10 @@ module.exports = [
     description: "Static type checker by Facebook",
     match: project => includesAny(project.dependencies, ["babel-preset-flow"]),
   },
+  {
+    name: "parcel-bundler",
+    aka: "parcel",
+    description: "Blazing fast, zero configuration web application bundler",
+    match: project => includesAny(project.dependencies, ["parcel-bundler"]),
+  },
 ];
