@@ -408,5 +408,9 @@ module.exports = {
       url: "https://github.com/WhitestormJS/whs.js",
       tags: ["toolkit", "3d", "game"],
     },
+    {
+      url: "https://github.com/video-react/video-react",
+      tags: ["video"],
+    },
   ],
 };
