@@ -5,6 +5,7 @@ module.exports = {
     "These are tools that transform JS and CSS. They are typically highly configurable and pluggable.",
   aka: ["JavaScript bundlers", "packagers"],
 
+  tags: [],
   projects: [
     { url: "https://github.com/brunch/brunch" },
     { url: "https://github.com/webpack/webpack" },

@@ -262,7 +262,11 @@ module.exports = {
       url: "https://github.com/stample/gulp-browserify-react-phonegap-starter",
     },
     { url: "https://github.com/start-react/native-starter-kit" },
-    { url: "https://github.com/stoikerty/dev-toolkit", tags: ["css modules"] },
+    {
+      url: "https://github.com/stoikerty/dev-toolkit",
+      tags: ["css modules"],
+      packagePaths: ["src/package.json"],
+    },
     { url: "https://github.com/Stupidism/stupid-rc-starter" },
     { url: "https://github.com/substack/react-starter-hmr" },
     { url: "https://github.com/survivejs/react-component-boilerplate" },

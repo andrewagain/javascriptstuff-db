@@ -19,8 +19,8 @@
     "eslint-plugin-react": "^7.4.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
-    "prettier": "^1.7.3",
-    "prettier-eslint": "^8.2.0"
+    "prettier": "^1.9.2",
+    "prettier-eslint": "^8.6.0"
   },
   "keywords": [
     "package",
@@ -40,6 +40,9 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
