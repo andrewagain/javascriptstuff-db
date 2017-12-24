@@ -34,5 +34,6 @@ module.exports = {
     { url: "https://github.com/jashkenas/underscore", tags: ["multi-tool"] },
     { url: "https://github.com/jquery/jquery", tags: ["multi-tool", "ajax"] },
     { url: "https://github.com/faisalman/ua-parser-js" },
+    { url: "https://github.com/moment/luxon", tags: ["date"] },
   ],
 };
