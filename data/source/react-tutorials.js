@@ -28,7 +28,7 @@ module.exports = {
       author: "Ken Wheeler",
       date: "2017-10-18",
       description:
-        "The first installment in a new series of tutorials, Learning React, that will focus on becoming proficient and effective with Facebook&'s React library",
+        "The first installment in a new series of tutorials, Learning React, that will focus on becoming proficient and effective with Facebook's React library",
       notes:
         "This article was published way back in 2014, but the author has kept it up-to-date. It has been updated for react 16.",
     },
