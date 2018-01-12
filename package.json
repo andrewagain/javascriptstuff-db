@@ -44,5 +44,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "prettier": {
+    "trailingComma": "es5"
   }
 }

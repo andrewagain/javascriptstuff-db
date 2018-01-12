@@ -196,9 +196,9 @@ module.exports = {
     { url: "https://github.com/kriasoft/react-static-boilerplate" },
     { url: "https://github.com/kristinbaumann/react-sketchapp-starter-kit" },
     { url: "https://github.com/KyleAMathews/coffee-react-quickstart" },
-    { 
+    {
       url: "https://github.com/smith-chris/react-coffee-starter",
-      tags: ["coffeescript", "webpack 2", "css modules", "hmr", "babel", "router", "flux", "tests", "minimal"]
+      tags: ["css modules"],
     },
     { url: "https://github.com/LEINWAND/react-redux-app" },
     { url: "https://github.com/lifenautjoe/webpack-starter-basic" },
