@@ -102,7 +102,7 @@ module.exports = {
     { url: "https://github.com/adampash/react-native-hot-redux-starter" },
     { url: "https://github.com/akopichin/webpack-react-template" },
     {
-      url: "https://github.com/alicoding/react-webpack-babel",
+      url: "https://github.com/ReactJSResources/react-webpack-babel",
       tags: ["css modules"],
     },
     { url: "https://github.com/amaurymartiny/react-redux-auth0-kit" },
@@ -197,7 +197,7 @@ module.exports = {
     },
     { url: "https://github.com/kriasoft/babel-starter-kit" },
     { url: "https://github.com/kriasoft/react-starter-kit" },
-    { url: "https://github.com/kriasoft/react-static-boilerplate" },
+    { url: "https://github.com/kriasoft/react-firebase-starter" },
     { url: "https://github.com/kristinbaumann/react-sketchapp-starter-kit" },
     { url: "https://github.com/KyleAMathews/coffee-react-quickstart" },
     {
@@ -213,12 +213,12 @@ module.exports = {
     {
       url: "https://github.com/madnight/react-webpack-babel-karma-boilerplate",
     },
-    { url: "https://github.com/mcnamee/react-native-starter-app" },
+    { url: "https://github.com/mcnamee/react-native-starter-kit" },
     { url: "https://github.com/mhart/simple-relay-starter" },
     { url: "https://github.com/mikechabot/react-boilerplate" },
     { url: "https://github.com/mobxjs/mobx-react-boilerplate" },
     { url: "https://github.com/mobxjs/mobx-react-typescript-boilerplate" },
-    { url: "https://github.com/MoOx/phenomic" },
+    { url: "https://github.com/phenomic/phenomic" },
     { url: "https://github.com/mozilla-neutrino/react-router-starter" },
     { url: "https://github.com/mozilla-neutrino/react-starter" },
     { url: "https://github.com/ngduc/react-setup" },
@@ -240,7 +240,7 @@ module.exports = {
     { url: "https://github.com/phenomic/phenomic" },
     { url: "https://github.com/pheuter/essential-react" },
     {
-      url: "https://github.com/piotrwitek/react-redux-typescript-starter-kit",
+      url: "https://github.com/piotrwitek/react-redux-typescript-jspm-starter",
       tags: ["css modules"],
     },
     { url: "https://github.com/przeor/react-router-flux-starter-kit" },
@@ -314,7 +314,7 @@ module.exports = {
     { url: "https://github.com/zxbodya/reactive-widgets" },
     { url: "https://github.com/gaearon/react-transform-boilerplate" },
     {
-      url: "https://github.com/facebookincubator/create-react-app",
+      url: "https://github.com/facebook/create-react-app",
       tags: ["dependency"],
     },
     { url: "https://github.com/ahfarmer/minimal-react-starter", tags: ["HMR"] },

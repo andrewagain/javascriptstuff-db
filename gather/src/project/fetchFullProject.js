@@ -90,7 +90,11 @@ function createFullProject(
       );
       return;
     }
-    if (githubData && githubData.data.full_name !== sourceProject.githubPath) {
+    if (
+      githubData &&
+      githubData.data.full_name.toLowerCase() !==
+        sourceProject.githubPath.toLowerCase()
+    ) {
       outerCallback(
         new Error(
           `Project moved from ${sourceProject.githubPath} -> ${

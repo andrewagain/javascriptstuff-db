@@ -12,7 +12,7 @@ module.exports = {
     { url: "https://github.com/japgolly/scalajs-react" },
     { url: "https://github.com/tomocchino/react-snake", tags: ["game"] },
     { url: "https://github.com/felixgborrego/simple-docker-ui" },
-    { url: "https://github.com/fruux/Baikal" },
+    { url: "https://github.com/sabre-io/Baikal" },
     // Has package.json but not using master branch
     { url: "https://github.com/Merri/react-tabbordion", tags: ["set"] },
     {
