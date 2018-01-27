@@ -404,7 +404,7 @@ module.exports = {
     },
     { url: "https://github.com/reactstrap/reactstrap", tags: ["toolkit"] },
     {
-      url: "https://github.com/callemall/material-ui",
+      url: "https://github.com/mui-org/material-ui",
       tags: ["toolkit", "material design"],
     },
     { url: "https://github.com/grommet/grommet", tags: ["toolkit"] },

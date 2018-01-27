@@ -90,6 +90,16 @@ function createFullProject(
       );
       return;
     }
+    if (githubData && githubData.data.full_name !== sourceProject.githubPath) {
+      outerCallback(
+        new Error(
+          `Project moved from ${sourceProject.githubPath} -> ${
+            githubData.data.full_name
+          }`
+        )
+      );
+      return;
+    }
 
     const fullProject = new FullProject(
       sourceProject,
@@ -112,9 +122,9 @@ function fetchRetry(
   total,
   cb
 ) {
-  const logPrefix = `${colors.gray(
-    `[${index + 1}/${total}]`
-  )} ${sourceProject.githubPath}`;
+  const logPrefix = `${colors.gray(`[${index + 1}/${total}]`)} ${
+    sourceProject.githubPath
+  }`;
   let attemptNumber = 0;
   async.retry(
     3,
