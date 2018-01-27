@@ -13,6 +13,7 @@ module.exports = {
     },
   ],
   projects: [
+    { url: "https://github.com/BTMPL/react-yt", tags: ["video"] },
     { url: "https://github.com/ahfarmer/calculator", tags: ["clone"] },
     { url: "https://github.com/ahfarmer/emoji-search" },
     { url: "https://github.com/insin/react-hn" },

@@ -25,6 +25,10 @@ module.exports = {
   tags: starterProjectTags,
   projects: [
     {
+      url: "https://github.com/jaredpalmer/after.js",
+      tags: ["dependency"],
+    },
+    {
       url: "https://github.com/gatsbyjs/gatsby",
       tags: ["dependency", "css modules"],
       packagePaths: ["packages/gatsby/package.json"],

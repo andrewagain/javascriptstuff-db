@@ -56,10 +56,24 @@ module.exports = {
   ],
 
   /**
-   * TODO: see how these components are styled and add tags for that. Some people may not want to use
-   * components that require a change to their webpack config.
+   * TODO: see how these components are styled and add tags for that. Some
+   * people may not want to use components that require a change to their
+   * webpack config.
    */
   projects: [
+    { url: "https://github.com/josephmaxim/sc-react" },
+    {
+      url: "https://github.com/ArthurClemens/polythene",
+      tags: ["material design", "toolkit"],
+    },
+    {
+      url: "https://github.com/LINKIWI/react-elemental",
+      tags: ["toolkit"],
+    },
+    {
+      url: "https://github.com/appbaseio/reactivesearch",
+      tags: ["toolkit"],
+    },
     {
       url: "https://github.com/mlaursen/react-md",
       tags: ["toolkit", "material design"],

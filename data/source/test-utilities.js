@@ -5,6 +5,8 @@ module.exports = {
   aka: ["test frameworks", "test tools"],
   tags: [],
   projects: [
+    { url: "https://github.com/facebook/jest", tags: ["runner"] },
+    { url: "https://github.com/Raathigesh/majestic" },
     { url: "https://github.com/cypress-io/cypress" },
     { url: "https://github.com/mochajs/mocha" },
     { url: "https://github.com/airbnb/enzyme", tags: ["react"] },
