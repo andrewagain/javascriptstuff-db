@@ -366,5 +366,8 @@ module.exports = {
       url: "https://github.com/karpusa/heroku-react-starter-kit",
       tags: ["css modules"],
     },
+    {
+      url: "https://github.com/dazlious/react-typescript-starter",
+    },
   ],
 };
