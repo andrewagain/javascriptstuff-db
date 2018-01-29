@@ -369,5 +369,8 @@ module.exports = {
     {
       url: "https://github.com/dazlious/react-typescript-starter",
     },
+      url: "https://github.com/iaincollins/nextjs-starter",
+      tags: ["universal", "es6", "babel", "hmr", "live reload", "webpack 2"],
+    },
   ],
 };
