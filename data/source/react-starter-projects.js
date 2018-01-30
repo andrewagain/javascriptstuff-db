@@ -371,7 +371,7 @@ module.exports = {
     },
     {
       url: "https://github.com/dazlious/react-typescript-starter",
-      tags: ["webpack 3", "scss", "typescript", "linter", "i18next", "numeral", "lodash", "moment", "redux", "redux-thunk", "router", "reselect", "enzyme", "karma", "chai", "enzyme", "coverage"],
+      tags: ["webpack 3", "scss", "typescript", "linter", "i18next", "numeral", "moment", "flux", "router", "tests", "coverage"],
     },
   ],
 };
