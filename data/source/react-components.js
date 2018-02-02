@@ -280,7 +280,7 @@ module.exports = {
       url: "https://github.com/LevInteractive/react-serial-forms",
       tags: ["form"],
     },
-    { url: "https://github.com/effektif/react-mentions" },
+    { url: "https://github.com/signavio/react-mentions" },
     { url: "https://github.com/istarkov/google-map-react", tags: ["map"] },
     { url: "https://github.com/greena13/react-hotkeys" },
     { url: "https://github.com/jakubzloczewski/react-steps" },

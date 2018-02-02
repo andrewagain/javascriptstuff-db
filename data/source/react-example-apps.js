@@ -255,6 +255,5 @@ module.exports = {
     { url: "https://github.com/bradoyler/newswatch-react-native" },
     { url: "https://github.com/ccoenraets/belgian-beer-explorer" },
     { url: "https://github.com/jhewlett/react-reversi", tags: ["game"] },
-    { url: "https://github.com/reddit/reddit-mobile" },
   ],
 };
