@@ -372,5 +372,8 @@ module.exports = {
     {
       url: "https://github.com/dazlious/react-typescript-starter",
     },
+    {
+      url: "https://github.com/rtivital/react-pages-boilerplate",
+    }
   ],
 };
