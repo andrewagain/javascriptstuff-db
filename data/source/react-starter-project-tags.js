@@ -105,6 +105,7 @@ module.exports = [
         "eslint-plugin-react",
         "gulp-eslint",
         "babel-eslint",
+        "tslint",
       ]),
   },
   {

@@ -35,9 +35,14 @@ module.exports = {
       name: "eslint",
       description: "These linters are powered by ESLint",
     },
+    {
+      name: "typescript",
+      description: "Linter for TypeScript",
+    },
   ],
 
   projects: [
+    { url: "https://github.com/palantir/tslint", tags: ["typescript"] },
     {
       url: "https://github.com/beautify-web/js-beautify",
       tags: ["js", "html", "autofix"],
