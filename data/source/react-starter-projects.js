@@ -172,7 +172,7 @@ module.exports = {
     { url: "https://github.com/ivanzotov/react-native-example" },
     { url: "https://github.com/jahe/jahe-react-starter" },
     { url: "https://github.com/janoist1/universal-react-redux-starter-kit" },
-    { url: "https://github.com/jaredpalmer/razzle" },
+    { url: "https://github.com/jaredpalmer/razzle", tags: ["dependency"] },
     { url: "https://github.com/jcreamer898/expressiso" },
     { url: "https://github.com/jedireza/aqua" },
     { url: "https://github.com/jeffschwartz/react-quickstart" },
@@ -374,6 +374,6 @@ module.exports = {
     },
     {
       url: "https://github.com/rtivital/react-pages-boilerplate",
-    }
+    },
   ],
 };

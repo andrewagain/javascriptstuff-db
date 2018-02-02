@@ -15,6 +15,7 @@ module.exports = {
     },
   ],
   projects: [
+    { url: "https://github.com/mroderick/PubSubJS" },
     { url: "https://github.com/solkimicreb/react-easy-state", tags: ["react"] },
     { url: "https://github.com/facebook/flux", tags: ["pure flux"] },
     { url: "https://github.com/goatslacker/alt", tags: ["pure flux"] },
