@@ -371,6 +371,7 @@ module.exports = {
     },
     {
       url: "https://github.com/dazlious/react-typescript-starter",
+      tags: ["webpack 3", "scss", "typescript", "linter", "i18next", "numeral", "moment", "flux", "router", "tests", "coverage"],
     },
     {
       url: "https://github.com/rtivital/react-pages-boilerplate",
