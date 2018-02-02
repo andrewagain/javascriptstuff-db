@@ -5,7 +5,9 @@ const includesAny = require("../util/includesAny");
 module.exports = [
   {
     name: "dependency",
-    description: "Rather than copying the project, you add it as a dependency.",
+    aka: ["updateable"],
+    description:
+      "Rather than copying the project, you add it as a dependency. This makes updates a lot easier and keeps your project cleaner.",
   },
   {
     name: "gatsby",
@@ -48,45 +50,19 @@ module.exports = [
     },
   },
   {
-    name: "es6",
-    aka: ["esnext", "es6+", "es7", "es2015", "es2016", "transpiled"],
-    description:
-      "Uses transpiling to convert JavaScript with the latest language features into well-supported (ES5) code",
-
-    match: project => {
-      // Projects with coffeescript are automatically considered to NOT be using ES6
-      if (
-        includesAny(project.dependencies, ["coffee-loader", "coffee-script"])
-      ) {
-        return false;
-      }
-
-      return includesAny(project.dependencies, [
-        "babel",
-        "babel-core",
-        "babel-loader",
-        "babel-preset-react",
-        "babel-preset-es2015",
-        "babelify",
-        "babel-jest",
-      ]);
-    },
+    name: "redux",
+    description: "Redux is used for state management.",
+    match: project => includesAny(project.dependencies, ["redux"]),
   },
   {
     name: "flux",
-    description: "Something flux-like is used: Redux, Mobx, Flux, Reflux, etc.",
-    match: project =>
-      includesAny(project.dependencies, [
-        "flux",
-        "mobx",
-        "redux",
-        "reflux",
-        "alt",
-        "alt.js",
-        "flummox",
-        "martyjs",
-        "miniflux",
-      ]),
+    description: "Flux is used for state management.",
+    match: project => includesAny(project.dependencies, ["flux"]),
+  },
+  {
+    name: "mobx",
+    description: "Mobx is used for state management.",
+    match: project => includesAny(project.dependencies, ["mobx"]),
   },
   {
     name: "hmr",
@@ -199,10 +175,9 @@ module.exports = [
     },
   },
   {
-    name: "webpack 2",
-    aka: ["webpack2"],
-    description:
-      "Webpack 2 was released in Jan 2017 and includes some breaking changes.",
+    name: "webpack 3",
+    aka: ["webpack3"],
+    description: "Webpack 3 was released in June 2017.",
     match: project => {
       const dependencies = Object.assign(
         {},
@@ -218,7 +193,29 @@ module.exports = [
       if (!webpackMajorVersion) {
         return false;
       }
-      return webpackMajorVersion === "2";
+      return webpackMajorVersion === "3";
+    },
+  },
+  {
+    name: "webpack 4",
+    aka: ["webpack4"],
+    description: "Webpack 4 was released in Feb 2018.",
+    match: project => {
+      const dependencies = Object.assign(
+        {},
+        project.packageJson.dependencies,
+        project.packageJson.devDependencies
+      );
+      const webpackVersionRange = dependencies.webpack;
+      if (!webpackVersionRange) {
+        return false;
+      }
+      // Get the first digit
+      const webpackMajorVersion = webpackVersionRange.match(/[0-9]/)[0];
+      if (!webpackMajorVersion) {
+        return false;
+      }
+      return webpackMajorVersion === "4";
     },
   },
   {
