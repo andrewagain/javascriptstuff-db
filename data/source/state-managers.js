@@ -13,8 +13,20 @@ module.exports = {
       description:
         "Has code or documentation that specifically helps to integrate with React",
     },
+    {
+      name: "redux",
+      description: "A Redux plugin",
+    },
+    {
+      name: "mobx",
+      description: "A MobX plugin.",
+    },
   ],
   projects: [
+    { url: "https://github.com/cerebral/cerebral" },
+    { url: "https://github.com/jumpsuit/jumpstate" },
+    { url: "https://github.com/dvajs/dva" },
+    { url: "https://github.com/keajs/kea" },
     { url: "https://github.com/Olical/EventEmitter" },
     { url: "https://github.com/jeromeetienne/microevent.js" },
     { url: "https://github.com/mroderick/PubSubJS" },
@@ -24,11 +36,21 @@ module.exports = {
     { url: "https://github.com/optimizely/nuclear-js", tags: ["pure flux"] },
     { url: "https://github.com/yahoo/fluxible", tags: ["pure flux"] },
     { url: "https://github.com/acdlite/flummox", tags: ["pure flux"] },
-    { url: "https://github.com/mobxjs/mobx", tags: ["react"] },
-    { url: "https://github.com/reactjs/redux", tags: ["react"] },
-    { url: "https://github.com/redux-saga/redux-saga", tags: ["react"] },
-    { url: "https://github.com/reactjs/react-redux", tags: ["react"] },
-    { url: "https://github.com/tommikaikkonen/redux-orm", tags: ["react"] },
+    { url: "https://github.com/mobxjs/mobx", tags: ["react", "mobx"] },
+    {
+      url: "https://github.com/mobxjs/mobx-state-tree",
+      tags: ["react", "mobx"],
+    },
+    { url: "https://github.com/reactjs/redux", tags: ["react", "redux"] },
+    {
+      url: "https://github.com/redux-saga/redux-saga",
+      tags: ["react", "redux"],
+    },
+    { url: "https://github.com/reactjs/react-redux", tags: ["react", "redux"] },
+    {
+      url: "https://github.com/tommikaikkonen/redux-orm",
+      tags: ["react", "redux"],
+    },
     { url: "https://github.com/vuejs/vuex", tags: ["vue"] },
     { url: "https://github.com/cerebral/cerebral" },
     {

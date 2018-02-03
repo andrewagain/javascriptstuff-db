@@ -231,4 +231,14 @@ module.exports = [
     description: "Blazing fast, zero configuration web application bundler",
     match: project => includesAny(project.dependencies, ["parcel-bundler"]),
   },
+  {
+    name: "electron",
+    description: "Tool for building desktop apps.",
+    match: project =>
+      includesAny(project.dependencies, [
+        "electron-packager",
+        "electron",
+        "electron-rebuild",
+      ]),
+  },
 ];
