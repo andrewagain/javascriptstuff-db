@@ -114,7 +114,7 @@ module.exports = {
     },
     { url: "https://github.com/hoppula/refire-forum" },
     { url: "https://github.com/bu-ist/housing-available-units" },
-    { url: "https://github.com/thejameskyle/spectacle-code-slide" },
+    { url: "https://github.com/jamiebuilds/spectacle-code-slide" },
     { url: "https://github.com/sherubthakur/N-Puzzle", tags: ["game"] },
     { url: "https://github.com/DevAlien/dripr-ui" },
     { url: "https://github.com/gre/gl-react-image-effects" },

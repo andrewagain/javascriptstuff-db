@@ -148,7 +148,6 @@ module.exports = {
     { url: "https://github.com/djizco/boilerplate-react" },
     { url: "https://github.com/DominicTobias/universal-react" },
     { url: "https://github.com/dozoisch/koa-react-full-example" },
-    { url: "https://github.com/dvajs/dva" },
     { url: "https://github.com/eanplatter/react-starter" },
     { url: "https://github.com/elierotenberg/react-rails-starterkit" },
     { url: "https://github.com/emyann/typescript-webpack-starter" },

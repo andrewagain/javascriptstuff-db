@@ -25,7 +25,10 @@ module.exports = {
   projects: [
     { url: "https://github.com/cerebral/cerebral" },
     { url: "https://github.com/jumpsuit/jumpstate" },
-    { url: "https://github.com/dvajs/dva" },
+    {
+      url: "https://github.com/dvajs/dva",
+      packagePaths: ["package.json", "packages/dva-core/package.json"],
+    },
     { url: "https://github.com/keajs/kea" },
     { url: "https://github.com/Olical/EventEmitter" },
     { url: "https://github.com/jeromeetienne/microevent.js" },

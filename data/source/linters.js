@@ -66,7 +66,7 @@ module.exports = {
     { url: "https://github.com/stylelint/stylelint", tags: ["css"] },
     { url: "https://github.com/btford/write-good", tags: ["english"] },
     {
-      url: "https://github.com/sindresorhus/xo",
+      url: "https://github.com/xojs/xo",
       tags: ["js", "opinionated", "eslint", "autofix"],
     },
     { url: "https://github.com/wooorm/alex", tags: ["english"] },
