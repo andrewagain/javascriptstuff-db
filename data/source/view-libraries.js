@@ -14,6 +14,7 @@ module.exports = {
   ],
 
   projects: [
+    { url: "https://github.com/hyperapp/hyperapp" },
     { url: "https://github.com/facebook/react" },
     { url: "https://github.com/developit/preact" },
     { url: "https://github.com/angular/angular" },

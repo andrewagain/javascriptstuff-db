@@ -61,6 +61,7 @@ module.exports = {
    * webpack config.
    */
   projects: [
+    { url: "https://github.com/jaredpalmer/formik", tags: ["form"] },
     { url: "https://github.com/yjose/reactjs-popup" },
     {
       url: "https://github.com/MailOnline/libreact",

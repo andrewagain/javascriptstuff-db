@@ -24,6 +24,7 @@ module.exports = {
   aka: ["react boilerplates", "react starters", "react seeds"],
   tags: starterProjectTags,
   projects: [
+    { url: "https://github.com/spencercarli/getting-started-react-navigation" },
     { url: "https://github.com/chentsulin/electron-react-boilerplate" },
     {
       url: "https://github.com/jaredpalmer/after.js",
