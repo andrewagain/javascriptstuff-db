@@ -379,5 +379,9 @@ module.exports = {
     {
       url: "https://github.com/jesalg/penv-starter",
     },
+    {
+      url: "https://github.com/manuelbieh/react-ssr-setup",
+      tags: ["css modules", "webpack4"],
+    }
   ],
 };
