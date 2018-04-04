@@ -61,5 +61,6 @@ module.exports = {
       tags: ["vue"],
     },
     { url: "https://github.com/moreartyjs/moreartyjs", tags: ["react"] },
+    { url: "https://github.com/jamiebuilds/unstated", tags: ["react"] },
   ],
 };
