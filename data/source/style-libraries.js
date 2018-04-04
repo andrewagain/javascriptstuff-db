@@ -56,5 +56,6 @@ module.exports = {
     },
     { url: "https://github.com/rtsao/styletron" },
     { url: "https://github.com/zeit/styled-jsx", tags: ["react"] },
+    { url: "https://github.com/emotion-js/emotion", tags: ["inline"] },
   ],
 };
