@@ -318,6 +318,10 @@ module.exports = {
       url: "https://github.com/facebook/create-react-app",
       tags: ["dependency"],
     },
+    {
+      url: "https://github.com/react-community/create-react-native-app",
+      tags: ["dependency"],
+    },
     { url: "https://github.com/ahfarmer/minimal-react-starter", tags: ["HMR"] },
     {
       url: "https://github.com/FredericHeem/starhackit",
