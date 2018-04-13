@@ -283,7 +283,10 @@ module.exports = {
       tags: ["form"],
     },
     { url: "https://github.com/signavio/react-mentions" },
-    { url: "https://github.com/istarkov/google-map-react", tags: ["map"] },
+    {
+      url: "https://github.com/google-map-react/google-map-react",
+      tags: ["map"],
+    },
     { url: "https://github.com/greena13/react-hotkeys" },
     { url: "https://github.com/jakubzloczewski/react-steps" },
     { url: "https://github.com/whoisandy/react-blocks", tags: ["grid"] },

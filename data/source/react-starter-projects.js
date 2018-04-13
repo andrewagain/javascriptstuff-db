@@ -381,11 +381,11 @@ module.exports = {
       url: "https://github.com/rtivital/react-pages-boilerplate",
     },
     {
-      url: "https://github.com/jesalg/penv-starter",
+      url: "https://github.com/jesalg/pevn-starter",
     },
     {
       url: "https://github.com/manuelbieh/react-ssr-setup",
       tags: ["css modules", "webpack4"],
-    }
+    },
   ],
 };
