@@ -23,6 +23,8 @@ module.exports = {
     },
   ],
   projects: [
+    { url: "https://github.com/bcherny/undux" },
+    { url: "https://github.com/mweststrate/immer" },
     { url: "https://github.com/cerebral/cerebral" },
     { url: "https://github.com/jumpsuit/jumpstate" },
     {
