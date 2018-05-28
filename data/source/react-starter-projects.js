@@ -387,5 +387,9 @@ module.exports = {
       url: "https://github.com/manuelbieh/react-ssr-setup",
       tags: ["css modules"],
     },
+    {
+      url: "https://github.com/king-prawns/webpack4-starter-kit",
+      tags: ["webpack4", "babel", "TypeScript", "webcomponents", "service worker"],
+    }
   ],
 };
