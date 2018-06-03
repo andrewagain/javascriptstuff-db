@@ -107,6 +107,7 @@ module.exports = {
       url: "https://github.com/ReactJSResources/react-webpack-babel",
       tags: ["css modules"],
     },
+    { url: "https://github.com/amaurymartiny/cra-lerna-electron" },
     { url: "https://github.com/amaurymartiny/react-redux-auth0-kit" },
     { url: "https://github.com/andy9775/YARSP" },
     {
