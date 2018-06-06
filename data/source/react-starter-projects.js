@@ -385,7 +385,7 @@ module.exports = {
     },
     {
       url: "https://github.com/manuelbieh/react-ssr-setup",
-      tags: ["css modules", "webpack4"],
+      tags: ["css modules"],
     },
   ],
 };
