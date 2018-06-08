@@ -89,7 +89,10 @@ module.exports = {
       url: "https://github.com/react-toolbox/react-toolbox",
       tags: ["toolkit", "material design"],
     },
-    { url: "https://github.com/fritz-c/react-sortable-tree", tags: ["list"] },
+    {
+      url: "https://github.com/frontend-collective/react-sortable-tree",
+      tags: ["list"],
+    },
     { url: "https://github.com/nardeas/react-font-picker", tags: ["picker"] },
     { url: "https://github.com/jxnblk/reflexbox", tags: ["grid"] },
     { url: "https://github.com/chrvadala/react-svg-pan-zoom" },
@@ -134,7 +137,7 @@ module.exports = {
       url: "https://github.com/seejamescode/draft-js-gutter",
       tags: ["text editor"],
     },
-    { url: "https://github.com/bokuweb/react-balloon" },
+    { url: "https://github.com/bokuweb-sandbox/react-balloon" },
     { url: "https://github.com/KtorZ/elm-react-component" },
     { url: "https://github.com/fatiherikli/react-designer", tags: ["set"] },
     {
@@ -159,7 +162,10 @@ module.exports = {
     { url: "https://github.com/clari/react-ios-switch", tags: ["button"] },
     { url: "https://github.com/wangzuo/input-moment" },
     { url: "https://github.com/neptunian/react-photo-gallery" },
-    { url: "https://github.com/bokuweb/react-motion-menu", tags: ["menu"] },
+    {
+      url: "https://github.com/bokuweb-sandbox/react-motion-menu",
+      tags: ["menu"],
+    },
     { url: "https://github.com/romainberger/react-portal-tooltip" },
     {
       url: "https://github.com/alexkuz/react-input-enhancements",
@@ -178,7 +184,7 @@ module.exports = {
     { url: "https://github.com/Swizec/space-invaders", tags: ["game"] },
     { url: "https://github.com/mderrick/react-html5video" },
     { url: "https://github.com/gorangajic/react-svg-morph", tags: ["set"] },
-    { url: "https://github.com/alexcurtis/react-treebeard" },
+    { url: "https://github.com/storybooks/react-treebeard" },
     { url: "https://github.com/furqanZafar/react-selectize", tags: ["set"] },
     { url: "https://github.com/conorhastings/react-thermometer" },
     { url: "https://github.com/luqin/react-icheck" },
@@ -192,7 +198,7 @@ module.exports = {
       tags: ["animation"],
     },
     { url: "https://github.com/James-Oldfield/react-rpg" },
-    { url: "https://github.com/gorangajic/react-icons", tags: ["set"] },
+    { url: "https://github.com/react-icons/react-icons", tags: ["set"] },
     {
       url: "https://github.com/tgecho/react-prosemirror",
       tags: ["text editor"],

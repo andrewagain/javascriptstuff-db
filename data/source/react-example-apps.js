@@ -114,7 +114,6 @@ module.exports = {
       tags: ["game", "educational"],
     },
     { url: "https://github.com/hoppula/refire-forum" },
-    { url: "https://github.com/bu-ist/housing-available-units" },
     { url: "https://github.com/jamiebuilds/spectacle-code-slide" },
     { url: "https://github.com/sherubthakur/N-Puzzle", tags: ["game"] },
     { url: "https://github.com/DevAlien/dripr-ui" },
@@ -205,7 +204,7 @@ module.exports = {
       url: "https://github.com/raineroviir/react-redux-socketio-chat",
       tags: ["chat"],
     },
-    { url: "https://github.com/romseguy/d3-state-visualizer" },
+    { url: "https://github.com/reduxjs/d3-state-visualizer" },
     { url: "https://github.com/srtucker22/glipchat", tags: ["chat"] },
     {
       url: "https://github.com/gokulkrishh/React-hacker-news",

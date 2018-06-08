@@ -151,7 +151,7 @@ module.exports = {
     { url: "https://github.com/dozoisch/koa-react-full-example" },
     { url: "https://github.com/eanplatter/react-starter" },
     { url: "https://github.com/elierotenberg/react-rails-starterkit" },
-    { url: "https://github.com/emyann/typescript-webpack-starter" },
+    { url: "https://github.com/nobrainr/typescript-webpack-starter" },
     { url: "https://github.com/ericelliott/react-pure-component-starter" },
     { url: "https://github.com/erikras/react-redux-universal-hot-example" },
     { url: "https://github.com/este/este" },

@@ -27,7 +27,7 @@ module.exports = {
     { url: "https://github.com/okonet/lint-staged" },
     { url: "https://github.com/kitze/sizzy" },
     {
-      url: "https://github.com/gaearon/redux-devtools",
+      url: "https://github.com/reduxjs/redux-devtools",
       tags: ["react", "browser extension"],
     },
     {

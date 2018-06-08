@@ -46,12 +46,12 @@ module.exports = {
       url: "https://github.com/mobxjs/mobx-state-tree",
       tags: ["react", "mobx"],
     },
-    { url: "https://github.com/reactjs/redux", tags: ["react", "redux"] },
+    { url: "https://github.com/reduxjs/redux", tags: ["react", "redux"] },
     {
       url: "https://github.com/redux-saga/redux-saga",
       tags: ["react", "redux"],
     },
-    { url: "https://github.com/reactjs/react-redux", tags: ["react", "redux"] },
+    { url: "https://github.com/reduxjs/react-redux", tags: ["react", "redux"] },
     {
       url: "https://github.com/tommikaikkonen/redux-orm",
       tags: ["react", "redux"],
