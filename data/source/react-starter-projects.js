@@ -390,7 +390,6 @@ module.exports = {
     },
     {
       url: "https://github.com/king-prawns/webpack4-starter-kit",
-      tags: ["webpack4", "babel", "TypeScript", "webcomponents", "service worker"],
-    }
+    },
   ],
 };
