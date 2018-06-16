@@ -391,5 +391,8 @@ module.exports = {
     {
       url: "https://github.com/king-prawns/webpack4-starter-kit",
     },
+    { 
+      url: "https://github.com/theqdev/react-big-bang" 
+    },
   ],
 };
