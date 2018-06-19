@@ -391,5 +391,9 @@ module.exports = {
     {
       url: "https://github.com/king-prawns/webpack4-starter-kit",
     },
+    {
+        url:"https://github.com/alishahlakhani/Reactsx-React-TS-SCSS-PWA-Boilerplate",
+        tags:["css modules","live reload","minimal","router","typescript"]
+    }
   ],
 };
