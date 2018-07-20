@@ -155,6 +155,7 @@ module.exports = [
   'https://github.com/xpepermint/isomorphic-react-relay-boilerplate',
   'https://github.com/YUzhva/create-react-redux-app',
   'https://github.com/zeit/next.js',
+  'https://github.com/king-prawns/webpack4-starter-kit',
   'https://github.com/zxbodya/reactive-widgets',
 
   // package.json elsewhere, or needs tag adjustments
