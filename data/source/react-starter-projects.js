@@ -27,7 +27,6 @@ module.exports = {
     { url: "https://github.com/spencercarli/getting-started-react-navigation" },
     {
       url: "https://github.com/crazyfactory/ts-react-boilerplate",
-      tags: ["TypeScript", "redux-saga", "jest", "TypeStyle", "SSR"],
     },
     { url: "https://github.com/chentsulin/electron-react-boilerplate" },
     {
