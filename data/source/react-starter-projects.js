@@ -145,7 +145,7 @@ module.exports = {
     { url: "https://github.com/ctrlplusb/react-universally" },
     { url: "https://github.com/davezuko/react-redux-starter-kit" },
     {
-      url: "https://github.com/developer239/react-redux-apollo-graphql",
+      url: "https://github.com/developer239/react-apollo-graphql",
     },
     { url: "https://github.com/developer239/workbox-webpack-react" },
     { url: "https://github.com/diegohaz/arc" },

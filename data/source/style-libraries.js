@@ -39,7 +39,7 @@ module.exports = {
     { url: "https://github.com/less/less.js", tags: ["css processor"] },
     { url: "https://github.com/maxguzenski/react-easy-style", tags: ["react"] },
     { url: "https://github.com/paypal/glamorous", tags: ["inline"] },
-    { url: "https://github.com/smyte/jsxstyle", tags: ["inline"] },
+    { url: "https://github.com/jsxstyle/jsxstyle", tags: ["inline"] },
     { url: "https://github.com/postcss/postcss", tags: ["css processor"] },
     { url: "https://github.com/rofrischmann/fela" },
     { url: "https://github.com/rofrischmann/react-look", tags: ["react"] },

@@ -67,7 +67,7 @@ module.exports = {
       url: "https://github.com/MailOnline/libreact",
       tags: ["toolkit"],
     },
-    { url: "https://github.com/diegohaz/reas", tags: ["toolkit"] },
+    { url: "https://github.com/reakit/reakit", tags: ["toolkit"] },
     { url: "https://github.com/josephmaxim/sc-react" },
     {
       url: "https://github.com/ArthurClemens/polythene",
