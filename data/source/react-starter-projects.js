@@ -145,8 +145,7 @@ module.exports = {
     { url: "https://github.com/ctrlplusb/react-universally" },
     { url: "https://github.com/davezuko/react-redux-starter-kit" },
     {
-      url:
-        "https://github.com/developer239/react-redux-apollo-graphql",
+      url: "https://github.com/developer239/react-redux-apollo-graphql",
     },
     { url: "https://github.com/developer239/workbox-webpack-react" },
     { url: "https://github.com/diegohaz/arc" },
@@ -401,8 +400,13 @@ module.exports = {
     {
       url: "https://github.com/reactjs-starter-kit/React-Starter-Kit",
     },
-    { 
-      url: "https://github.com/theqdev/react-big-bang" 
+    {
+      url: "https://github.com/theqdev/react-big-bang",
+    },
+    {
+      url:
+        "https://github.com/alishahlakhani/Reactsx-React-TS-SCSS-PWA-Boilerplate",
+      tags: ["css modules"],
     },
   ],
 };
