@@ -25,6 +25,10 @@ module.exports = {
   tags: starterProjectTags,
   projects: [
     { url: "https://github.com/spencercarli/getting-started-react-navigation" },
+    {
+      url: "https://github.com/crazyfactory/ts-react-boilerplate",
+      tags: ["TypeScript", "redux-saga", "jest", "TypeStyle", "SSR"],
+    },
     { url: "https://github.com/chentsulin/electron-react-boilerplate" },
     {
       url: "https://github.com/jaredpalmer/after.js",
@@ -142,7 +146,7 @@ module.exports = {
     { url: "https://github.com/davezuko/react-redux-starter-kit" },
     {
       url:
-        "https://github.com/developer239/ReactReduxApolloGraphQLHotBoilerplate",
+        "https://github.com/developer239/react-redux-apollo-graphql",
     },
     { url: "https://github.com/developer239/workbox-webpack-react" },
     { url: "https://github.com/diegohaz/arc" },
@@ -393,6 +397,12 @@ module.exports = {
     },
     {
       url: "https://github.com/eldrego/react-redux-starter-kit",
+    },
+    {
+      url: "https://github.com/reactjs-starter-kit/React-Starter-Kit",
+    },
+    { 
+      url: "https://github.com/theqdev/react-big-bang" 
     },
   ],
 };
