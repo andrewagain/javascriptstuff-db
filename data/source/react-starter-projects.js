@@ -192,7 +192,10 @@ module.exports = {
       tags: ["css modules"],
     },
     { url: "https://github.com/khalilgharbaoui/flux-boilerplate" },
-    { url: "https://github.com/kireerik/razzle-material-ui-styled-example" },
+    {
+      url: "https://github.com/kireerik/razzle-material-ui-styled-example",
+      tags: ["minimal", "universal", "ssr", "HMR", "live reload", "webpack 4", "babel", "linter"]
+    },
     { url: "https://github.com/koba04/react-boilerplate" },
     { url: "https://github.com/krasimir/react-webpack-starter" },
     {
