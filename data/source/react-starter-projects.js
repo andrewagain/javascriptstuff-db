@@ -407,5 +407,7 @@ module.exports = {
         "https://github.com/alishahlakhani/Reactsx-React-TS-SCSS-PWA-Boilerplate",
       tags: ["css modules"],
     },
+    { url: "https://github.com/xxczaki/static-webpack-boilerplate" },
+    { url: "https://github.com/xxczaki/styled-react-boilerplate" },
   ],
 };
