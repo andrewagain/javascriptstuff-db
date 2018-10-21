@@ -408,5 +408,6 @@ module.exports = {
       tags: ["css modules"],
     },
     { url: "https://github.com/xxczaki/static-webpack-boilerplate" },
+    { url: "https://github.com/xxczaki/styled-react-boilerplate" },
   ],
 };
