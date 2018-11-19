@@ -24,6 +24,10 @@ module.exports = {
   aka: ["react boilerplates", "react starters", "react seeds"],
   tags: starterProjectTags,
   projects: [
+    {
+      url: "https://github.com/mejta/webpack-kit",
+      tags: ["dependency", "hmr", "linter", "typescript", "webpack4"],
+    },
     { url: "https://github.com/spencercarli/getting-started-react-navigation" },
     {
       url: "https://github.com/crazyfactory/ts-react-boilerplate",
