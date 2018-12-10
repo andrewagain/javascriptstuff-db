@@ -407,5 +407,6 @@ module.exports = {
         "https://github.com/alishahlakhani/Reactsx-React-TS-SCSS-PWA-Boilerplate",
       tags: ["css modules"],
     },
+    { url: "https://github.com/tomanagle/Apollo-Next.js-GraphQL-starter" }
   ],
 };
