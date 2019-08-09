@@ -64,5 +64,7 @@ module.exports = {
     },
     { url: "https://github.com/moreartyjs/moreartyjs", tags: ["react"] },
     { url: "https://github.com/jamiebuilds/unstated", tags: ["react"] },
+	{ url: "https://github.com/VoliJS/Type-R" },
+	{ url: "https://github.com/VoliJS/React-Type-R", tags: ["react"] }
   ],
 };
