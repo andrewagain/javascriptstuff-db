@@ -157,6 +157,7 @@ module.exports = {
     { url: "https://github.com/ericelliott/react-pure-component-starter" },
     { url: "https://github.com/erikras/react-redux-universal-hot-example" },
     { url: "https://github.com/este/este" },
+    { url: "https://github.com/foxhound87/rfx-next" },
     { url: "https://github.com/foxhound87/rfx-stack", tags: ["css modules"] },
     { url: "https://github.com/futurice/pepperoni-app-kit" },
     { url: "https://github.com/gaearon/react-hot-boilerplate" },
