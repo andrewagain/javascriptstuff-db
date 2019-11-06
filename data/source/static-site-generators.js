@@ -29,6 +29,10 @@ module.exports = {
       url:
         "https://github.com/markdalgleish/static-site-generator-webpack-plugin",
     },
+    {
+      url:
+        "https://github.com/kuncevic/webpack-landing-generator",
+    },
     { url: "https://github.com/GitbookIO/gitbook" },
     { url: "https://github.com/elmasse/nextein", tags: ["react"] },
     { url: "https://github.com/flatiron/blacksmith" },
