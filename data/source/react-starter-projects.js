@@ -391,7 +391,7 @@ module.exports = {
       tags: ["css modules"],
     },
     {
-      url: "https://github.com/king-prawns/webpack4-starter-kit",
+      url: "https://github.com/king-prawns/webpack5-starter-kit",
     },
     {
       url: "https://github.com/eldrego/react-redux-starter-kit",
