@@ -403,6 +403,9 @@ module.exports = {
       url: "https://github.com/theqdev/react-big-bang",
     },
     {
+      url: "https://github.com/instamobile/react-native-firebase-starter",
+    },
+    {
       url:
         "https://github.com/alishahlakhani/Reactsx-React-TS-SCSS-PWA-Boilerplate",
       tags: ["css modules"],
