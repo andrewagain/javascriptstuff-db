@@ -25,5 +25,6 @@ module.exports = {
     { url: "https://github.com/emberjs/ember.js" },
     { url: "https://github.com/vuejs/vue" },
     { url: "https://github.com/NativeScript/NativeScript", tags: ["mobile"] },
+    { url: "https://github.com/sveltejs/svelte" },
   ],
 };
